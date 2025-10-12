@@ -27,12 +27,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "homeworl/gitlab.md",
+                "file": "Networking/also new.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "gitlab"
+              "title": "also new"
             }
           }
         ],
@@ -187,13 +187,13 @@
   },
   "active": "9d11d6693f731099",
   "lastOpenFiles": [
+    "Networking/aaaaaa.md",
+    "homeworl/gitlab.md",
     "homeworl/aaa.md",
     "hmw/plan.md",
     "Networking/conflict-files-obsidian-git.md",
     "conflict-files-obsidian-git.md",
-    "Networking/Untitled.md",
     "hmw/ltr.md",
-    "homeworl/gitlab.md",
     "Networking/also new.md",
     "homeworl",
     "hmw/to send.md",
