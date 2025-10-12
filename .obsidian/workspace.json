@@ -8,17 +8,17 @@
         "type": "tabs",
         "children": [
           {
-            "id": "e9116b3832278af4",
+            "id": "ef2e86bf6b793c57",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Linux/bash.md",
+                "file": "Networking/also new.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "bash"
+              "title": "also new"
             }
           }
         ]
@@ -170,20 +170,29 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "e9116b3832278af4",
+  "active": "ef2e86bf6b793c57",
   "lastOpenFiles": [
+    "Networking/notes w1.md",
+    "Networking/notes w2.md",
+    "Linux/Bash.md",
+    "Linux/cmd connecting to server.md",
+    "Linux/cmd users and permissions.md",
+    "Linux/cmd text processing.md",
+    "Linux/cmd script and automation.md",
+    "Linux/cmd package management.md",
+    "Linux/cmd networking.md",
+    "Linux/cmd filesystem and navigation.md",
+    "Linux/cmd debugging and monitoring.md",
     "Networking/newewewewew.md",
     "Networking/also new.md",
     "Linux/newwwww.md",
+    "Linux/bash.md",
+    "desktop.ini",
     "Networking/note.md",
-    "Networking/Untitled.md",
     "Networking",
     "Untitled",
     "Linux/Untitled",
-    "Linux/bash.md",
-    "Linux/Untitled.md",
     "Linux",
-    "lINUX",
-    "Untitled.md"
+    "lINUX"
   ]
 }
