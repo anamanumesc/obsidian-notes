@@ -18,3 +18,7 @@
     18. Local Users administration
     19. Local Groups administration
     20. Sudoers file
+
+
+1. boot process
+its the way a computer starts up and 
