@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Networking/also new.md",
+                "file": "homeworl/gitlab.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "also new"
+              "title": "gitlab"
             }
           }
         ]
@@ -172,6 +172,9 @@
   },
   "active": "ef2e86bf6b793c57",
   "lastOpenFiles": [
+    "Networking/also new.md",
+    "homeworl/gitlab.md",
+    "homeworl",
     "hmw/to send.md",
     "hmw/questions.md",
     "hmw/project questions.md",
@@ -197,13 +200,11 @@
     "Linux/cmd filesystem and navigation.md",
     "Linux/cmd debugging and monitoring.md",
     "Networking/newewewewew.md",
-    "Networking/also new.md",
     "Linux/newwwww.md",
     "Linux/bash.md",
     "desktop.ini",
     "Networking/note.md",
     "Networking",
-    "Untitled",
     "Linux/Untitled",
     "Linux",
     "lINUX"
