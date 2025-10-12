@@ -21,4 +21,4 @@
 
 
 1. boot process
-its the way a computer starts up and 
+its the way a computer starts up and loads the operating system
