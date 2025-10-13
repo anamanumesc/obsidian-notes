@@ -25,5 +25,6 @@ distributing incoming traffic accross multiple servers to balance the load
 you need both:
 1. cloud load balancer outside of servers
 2. entrypoint into private network
+why double layer?
 
 ![[Pasted image 20251013151612.png]]
