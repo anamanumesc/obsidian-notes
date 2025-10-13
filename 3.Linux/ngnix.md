@@ -26,3 +26,6 @@ port 80 and http is not secure... we need https
 can add it on kubernetes. on containers
 
 ingress controller -> proxy for kubernetes 
+
+
+ngnix + 
