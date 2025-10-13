@@ -18,10 +18,11 @@ netflix uses nginx
 it can compress the data when receiving. 
 
 
-
-
-
 ssl trafic????
 web vs proxy server
 port to listen 
 port 80 and http is not secure... we need https
+
+can add it on kubernetes. on containers
+
+ingress controller -> proxy for kubernetes 
