@@ -28,4 +28,4 @@ you need both:
 1. cloud load balancer outside of servers
 2. entrypoint into private network
 
-![[Pasted image 20251013151451.png]]
+![[Pasted image 20251013151451.png]]![[Pasted image 20251013151612.png]]
