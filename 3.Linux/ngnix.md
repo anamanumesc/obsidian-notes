@@ -15,3 +15,4 @@ what else does proxy: 1. load balancing, 2. caching, 3. security
 
 send the request encrypted. the server decrypts itself. 
 netflix uses nginx 
+it can compress the data when receiving. 
