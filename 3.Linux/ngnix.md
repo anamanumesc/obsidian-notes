@@ -9,4 +9,4 @@ proxy server = forwards client requests to other servers
 
 
 what else does proxy:
-- 
+- fetching data for every request is slow so we cache 
