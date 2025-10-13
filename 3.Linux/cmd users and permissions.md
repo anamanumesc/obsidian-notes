@@ -5,7 +5,7 @@ trei tipuri de useri:
 
 sunt definiti in /etc/passwd
 parolele lor criptate in /etc/shadow
-grupurile in etc/grou
+grupurile in /etc/groups
 
 
 
