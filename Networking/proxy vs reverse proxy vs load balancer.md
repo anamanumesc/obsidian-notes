@@ -28,6 +28,9 @@ you need both:
 why double layer?
 it is more customizable
 
+# node js proxies/servers
+node.js with express.js has a built in 
+
 
 ingress controller = reverse proxy for kubernetes
 ![[Pasted image 20251013151612.png]]
