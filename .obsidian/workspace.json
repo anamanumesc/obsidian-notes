@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "-to-do-list-.md",
+                "file": "3.Linux/ngnix.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "-to-do-list-"
+              "title": "ngnix"
             }
           }
         ]
@@ -173,6 +173,7 @@
   "active": "ef39941ddb6f7c99",
   "lastOpenFiles": [
     "-to-do-list-.md",
+    "3.Linux/ngnix.md",
     "-to-do-list-",
     "homeworl/new!!!.md",
     "chp3-homework/website.md",
@@ -202,7 +203,6 @@
     "hmw/ltr.md",
     "homeworl",
     "hmw/to send.md",
-    "hmw/questions.md",
     "hmw",
     "1.Introduction to DevOps",
     "Agile",
