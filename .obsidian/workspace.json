@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "4bbd42e9d80e1f24",
+        "id": "f4134d23f123b1a5",
         "type": "tabs",
         "children": [
           {
-            "id": "ef2e86bf6b793c57",
+            "id": "ef39941ddb6f7c99",
             "type": "leaf",
             "state": {
               "type": "empty",
@@ -166,8 +166,9 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "ef2e86bf6b793c57",
+  "active": "a7083aa2c22a4689",
   "lastOpenFiles": [
+    "Untitled",
     "homeworl/new!!!.md",
     "chp3-homework/website.md",
     "chp3-homework/gitlab.md",
@@ -197,7 +198,6 @@
     "homeworl",
     "hmw/to send.md",
     "hmw/questions.md",
-    "hmw/project questions.md",
     "hmw",
     "1.Introduction to DevOps",
     "Agile",
