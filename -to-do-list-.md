@@ -6,7 +6,7 @@
 
 
 understand the first and second script
-understand how ngnix works
+understand how ngnix works- understand the second homework
 
 
 
