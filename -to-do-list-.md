@@ -17,6 +17,14 @@ understand how ngnix works- understand the second homework
 
 
 
+
+
+
+
+
+
+
+
 ---
 
 pt jira:
