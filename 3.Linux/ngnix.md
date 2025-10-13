@@ -28,4 +28,4 @@ can add it on kubernetes. on containers
 ingress controller -> proxy for kubernetes 
 
 
-ngnix + 
+ngnix acts as a load balancer inside the cluster itself 
