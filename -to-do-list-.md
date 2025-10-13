@@ -5,7 +5,7 @@
 5. study the commands
 
 
-
+understand how ngnix works
 
 
 
