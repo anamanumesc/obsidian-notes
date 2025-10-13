@@ -29,3 +29,4 @@ ingress controller -> proxy for kubernetes
 
 
 ngnix acts as a load balancer inside the cluster itself 
+the aws load balancer redirects 
