@@ -1,8 +1,18 @@
-1. do homework
-2. study those terms
-3. study the commands
+1. do homework from gitlab (two scripts)
+2. do home
+3. study those terms
+4. study the commands
 
 
+
+
+
+
+
+
+
+
+pt jira:
 
 
 adaug commuri 
