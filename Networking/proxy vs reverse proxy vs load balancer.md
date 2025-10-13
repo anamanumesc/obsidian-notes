@@ -13,4 +13,8 @@ also it cashes locally
 
 # reverse proxy
 sits on the server side
+handles incoming requests from clients
+it also has the functionality of load balancing
 
+# load balancer
+distributing incoming traffic accross multiple servers to balance the load
