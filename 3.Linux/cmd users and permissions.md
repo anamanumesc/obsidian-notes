@@ -9,7 +9,8 @@ grupurile in /etc/groups
 
 
 cd ~ or cd  -> go to home diretory
-
+cd . . -> go up one level
+cd / -> go to the root
 
 
 ----
