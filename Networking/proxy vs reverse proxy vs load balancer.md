@@ -31,3 +31,5 @@ it is more customizable
 
 ingress controller = reverse proxy for kubernetes
 ![[Pasted image 20251013151612.png]]
+
+![[Pasted image 20251013153930.png]]
