@@ -5,7 +5,9 @@
 5. study the commands
 
 
+understand the first and second script
 understand how ngnix works
+
 
 
 
