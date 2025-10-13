@@ -1,4 +1,7 @@
-root - userul suprem, are UID 0
+trei tipuri de useri:
+1. root - userul suprem, are UID 0, access total la sistem 
+2. user normal - 
+3. user de sistem 
 
 
 
