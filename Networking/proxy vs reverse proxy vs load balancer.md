@@ -21,11 +21,9 @@ logging
 # load balancer
 distributing incoming traffic accross multiple servers to balance the load
 
-
-
 # cloud load balancer
 you need both:
 1. cloud load balancer outside of servers
 2. entrypoint into private network
 
-![[Pasted image 20251013151451.png]]![[Pasted image 20251013151612.png]]
+![[Pasted image 20251013151612.png]]
