@@ -9,9 +9,6 @@ grupurile in /etc/groups
 
 
 
-
-
-
 ----
 comenzi
 
