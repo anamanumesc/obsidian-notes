@@ -1,3 +1,13 @@
+root - userul suprem, are UID 0
+
+
+
+
+
+
+----
+comenzi
+
 
 sudo useradd -m ${NEW_USER}
 
@@ -25,7 +35,7 @@ sudo visudo
 cat /etc/sudoers | grep tom
 
 - shows lines in sudoers file containing "tom"
-    
+
 - cat = concatenate (display content)
     
 - grep = global regular expression print, searches text
