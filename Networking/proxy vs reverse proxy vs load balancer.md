@@ -15,6 +15,7 @@ also it cashes locally
 sits on the server side
 handles incoming requests from clients
 it also has the functionality of load balancing
+protects the servers
 
 # load balancer
 distributing incoming traffic accross multiple servers to balance the load
