@@ -1,8 +1,6 @@
 
 also proxy vs vpn?
 
-
-
 # forward proxy
 middleman between u and the internet
 it forwards the requests u have
@@ -12,3 +10,7 @@ block some websites
 scan the response and block them if suspicious
 it logs peoples activity
 also it cashes locally 
+
+# reverse proxy
+sits on the server side
+
