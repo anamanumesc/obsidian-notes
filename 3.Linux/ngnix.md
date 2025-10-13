@@ -8,7 +8,7 @@ proxy server = forwards client requests to other servers
 2. proxy server
 
 
-what else does proxy: 1. load balancing, 2. caching, 3. security
+what else does proxy: 1. load balancing, 2. caching, 3. security, 4. scripting
 - fetching data for every request is slow so we cache 
 - we dont expose all servers on public internet
 - only one server that is public, it becomes the entrypoint
@@ -16,3 +16,12 @@ what else does proxy: 1. load balancing, 2. caching, 3. security
 send the request encrypted. the server decrypts itself. 
 netflix uses nginx 
 it can compress the data when receiving. 
+
+
+
+
+
+ssl trafic????
+web vs proxy server
+port to listen 
+port 80 and http is 
