@@ -1,7 +1,8 @@
 1. do homework from gitlab (two scripts)
-2. do home
-3. study those terms
-4. study the commands
+2. do homeowrk from confluence (deploy the web)
+3. study the homework!
+4. study those terms
+5. study the commands
 
 
 
