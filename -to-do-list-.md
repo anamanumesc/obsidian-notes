@@ -12,7 +12,7 @@ understand how ngnix works- understand the second homework
 
 
 
-
+PS C:\Users\bmaria> ssh -i "$env:USERPROFILE\.ssh\id_rsa_vm" remoteuser@192.168.56.101
 
 
 
