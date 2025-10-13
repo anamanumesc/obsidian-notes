@@ -1,7 +1,11 @@
 trei tipuri de useri:
 1. root - userul suprem, are UID 0, access total la sistem 
 2. user normal - 
-3. user de sistem 
+3. user de sistem - daemon, syslog, www-data - folositi de servici
+
+sunt definiti in /etc/passwd
+parolele lor criptate in /etc/shadow
+grupurile in etc/grou
 
 
 
