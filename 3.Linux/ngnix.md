@@ -13,4 +13,5 @@ what else does proxy: 1. load balancing, 2. caching, 3. security
 - we dont expose all servers on public internet
 - only one server that is public, it becomes the entrypoint
 
-send the request encrypted. the server 
+send the request encrypted. the server decrypts itself. 
+netflix uses nginx 
