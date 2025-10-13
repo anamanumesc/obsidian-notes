@@ -8,6 +8,7 @@ proxy server = forwards client requests to other servers
 2. proxy server
 
 
-what else does proxy:
+what else does proxy: 1. load balancing, 2.
 - fetching data for every request is slow so we cache 
-- we dont expose all rervers on public internet
+- we dont expose all servers on public internet
+- only one server that is public, it becomes the entrypoint
