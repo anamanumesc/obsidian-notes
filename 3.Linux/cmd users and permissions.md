@@ -8,6 +8,9 @@ parolele lor criptate in /etc/shadow
 grupurile in /etc/groups
 
 
+cd ~ or cd  -> go to home diretory
+
+
 
 ----
 comenzi
