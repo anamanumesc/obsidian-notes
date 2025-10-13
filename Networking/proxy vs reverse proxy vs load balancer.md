@@ -26,5 +26,8 @@ you need both:
 1. cloud load balancer outside of servers
 2. entrypoint into private network
 why double layer?
+it is more customizable
 
+
+ingress controller = reverse proxy for kubernetes
 ![[Pasted image 20251013151612.png]]
