@@ -1,6 +1,8 @@
 
 
-explain this pls #!/usr/bin/env bash
+```bash
+
+#!/usr/bin/env bash
 
 # Find a free port between 8000 and 9990
 PORT=""
@@ -35,3 +37,4 @@ trap 'kill "$UP_PID" 2>/dev/null' EXIT
 cd "$DIR" || exit 1
 echo "Serving http://$(hostname -I | awk "{print \$1}"):$PORT"
 python3 -m http.server "$PORT"
+```
