@@ -7,7 +7,8 @@
 # Find a free port between 8000 and 9990
 PORT=""
 for p in $(seq 8000 9990); do
-  if ! ss -ltn 2>/dev/null | grep -q ":$p"; then
+#ss command 
+  if ! ss -ltn 2>/dev/null | grep -q ":$p"; then #looks for ports
     PORT="$p"
     break
   fi
