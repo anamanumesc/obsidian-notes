@@ -2,7 +2,7 @@
 e un server static + reverse proxy
 static = livreaza fisiere html/css/js/imagini dintr un document root ales de mine
 reverse proxy - poateface cereri catre backend?
-aleg din config care e documentul meu root
+aleg din config care e document root-ul meu
 
 document root = locul de unde serverul serveste fisiere
 
@@ -40,3 +40,9 @@ ingress controller -> proxy for kubernetes
 
 ngnix acts as a load balancer inside the cluster itself 
 the aws load balancer redirects 
+
+
+---
+system logs in ubuntu:
+/var/log/nginx/access.log -> toate cererile http
+/var/log/nginx/error.log -> error logs

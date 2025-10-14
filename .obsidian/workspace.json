@@ -27,12 +27,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Networking/ngnix.md",
+                "file": "Networking/firewall.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "ngnix"
+              "title": "firewall"
             }
           },
           {
@@ -202,6 +202,9 @@
   },
   "active": "1565eea4c8db7364",
   "lastOpenFiles": [
+    "Networking/port.md",
+    "Networking/firewall.md",
+    "Networking/ngnix.md",
     "Networking/web.md",
     "zzzzz images/script 2.md",
     "-to-do-list-.md",
@@ -213,7 +216,6 @@
     "attachments/Pasted image 20251013151612.png",
     "attachments",
     "zzzzz images",
-    "Networking/ngnix.md",
     "chp3-homework/third exercise explanation.md",
     "chp3-homework/second script explanation.md",
     "chp3-homework/gitlab.md",
@@ -235,8 +237,6 @@
     "2.Agile",
     "Networking/newewewewew.md",
     "Networking/also new.md",
-    "Networking/aaaaaa.md",
-    "homeworl/gitlab.md",
     "homeworl",
     "hmw",
     "1.Introduction to DevOps",
