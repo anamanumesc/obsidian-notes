@@ -1,0 +1,44 @@
+
+1. Install _Apache/nginx_ 
+2. Deploy a "hello world" page, expose it and access it from the browser
+3. Check the logs of the system and webserver
+
+```bash
+# 1) Instalează și pornește Nginx (serviciu web)
+sudo apt update
+sudo apt install -y nginx
+sudo systemctl enable --now nginx
+# -> pornește și pune Nginx să pornească automat la boot
+
+# 2) Pune pagina „Hello World” în document root (implicit: /var/www/html)
+echo '<h1>Hello, world!</h1>' | sudo tee /var/www/html/index.html > /dev/null
+# -> acum Nginx va servi acest fișier ca răspuns pentru http://IP/
+
+# 3) (Dacă ai UFW) deschide porturile HTTP/HTTPS
+sudo ufw allow 'Nginx Full'
+# -> permite traficul către 80 (HTTP) și 443 (HTTPS)
+
+# 4) Verifică că Nginx ascultă pe 80 și că pagina răspunde local
+ss -ltnp | grep ':80'          # vezi că ascultă pe 0.0.0.0:80
+curl http://localhost/         # ar trebui să vezi conținutul "Hello, world!"
+
+# 5) Află IP-ul pentru a deschide din browser (de pe alt device în aceeași rețea)
+hostname -I | awk '{print $1}'
+# -> în browser: http://<IP-ul_afisat>/
+
+```
+
+Logs
+
+```bash
+# Cereri (cine a accesat, ce URL, cod status)
+sudo tail -f /var/log/nginx/access.log
+# ex: 192.168.1.10 "GET / HTTP/1.1" 200 ...
+
+# Erori (fișiere lipsă, permisiuni, probleme config)
+sudo tail -f /var/log/nginx/error.log
+
+# Jurnalul serviciului (porniri, reload)
+sudo journalctl -u nginx -f
+
+```
