@@ -1,3 +1,11 @@
+
+e un server static + reverse proxy
+
+
+
+
+---
+
 aseenbled page and displayed for user
 serve web pages to client browser
 
