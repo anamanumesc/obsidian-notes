@@ -107,7 +107,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 259.5047149658203
+    "width": 259.5047149658203,
+    "collapsed": true
   },
   "right": {
     "id": "665f98919aa3d73c",
@@ -199,7 +200,7 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "a7083aa2c22a4689",
+  "active": "1565eea4c8db7364",
   "lastOpenFiles": [
     "Networking/web.md",
     "zzzzz images/script 2.md",

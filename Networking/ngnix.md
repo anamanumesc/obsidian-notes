@@ -1,8 +1,10 @@
 
 e un server static + reverse proxy
+static = livreaza fisiere html/css/js/imagini dintr un document root ales de mine
+reverse proxy - poateface cereri catre backend?
+aleg din config care e documentul meu root
 
-
-
+document root = locul de unde serverul serveste fisiere
 
 ---
 
