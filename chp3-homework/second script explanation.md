@@ -11,7 +11,7 @@ update_page() {
     {
       echo '<!doctype html><html><head><meta charset="utf-8">'
       echo '<meta http-equiv="refresh" content="10"><title>top</title></head><body>'
-      echo '<h3>System top snapshot (auto-refresh every 10s)</h3><pre>'
+      echo '<h3>system top snapshot </h3><pre>'
       top -b -n1
       echo '</pre></body></html>'
     } > "$DIR/index.html"
@@ -22,7 +22,7 @@ update_page() {
 update_page & UP_PID=$!
 trap 'kill "$UP_PID" 2>/dev/null; exit' INT TERM EXIT
 
-cd "$DIR" || { echo "Nu pot intra în $DIR" >&2; exit 1; }
+cd "$DIR" || { echo "Nu pot intra in $DIR" >&2; exit 1; }
 
 for PORT in {8000..9990}; do
   echo "Trying http://127.0.0.1:$PORT"
