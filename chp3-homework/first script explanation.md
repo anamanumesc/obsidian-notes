@@ -7,7 +7,7 @@ start=$(date +%s)
 total=0
 
 for f in $(find /work/files/wiki/ -type f); do
-  c=$(grep -i -o 'engineer' "$f" | wc -l)
+  c=$(grep -i -o 'engineer' "$f" | wc -l) 
   total=$((total + c))
 done
 
