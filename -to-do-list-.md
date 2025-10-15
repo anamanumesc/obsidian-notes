@@ -16,12 +16,13 @@ PS C:\Users\bmaria> ssh -i "$env:USERPROFILE\.ssh\id_rsa_vm" remoteuser@192.168.
 
 
 
-deci cum se folosesc ip private si publice. mai ales in cazul meu aici
-ce e socket bonding asta
-ce este 
-pai nu ai zis tu ca eu pot sa accesez din browserul hostului, serverul vm-ului doar daca fac port binding? tu ai zis si acum zici asta : - - Browser pe host → trebuie să folosești **IP-ul privat al VM** și firewall-ul să permită accesul.
+1. deci cum se folosesc ip private si publice. mai ales in cazul meu aici
+2. ce e socket bonding asta
+
+3. pai nu ai zis tu ca eu pot sa accesez din browserul hostului, serverul vm-ului doar daca fac port binding? tu ai zis si acum zici asta : - - Browser pe host → trebuie să folosești **IP-ul privat al VM** și firewall-ul să permită accesul.
         
-- Important: host-ul trebuie să poată “vedea” VM-ul în rețea (network bridge sau NAT configurat).
+4. Important: host-ul trebuie să poată “vedea” VM-ul în rețea (network bridge sau NAT configurat).
+ce inseamna sa asculti pe asta?
 
 
 
