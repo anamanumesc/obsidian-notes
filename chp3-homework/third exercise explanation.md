@@ -77,4 +77,4 @@ daca aveam mai multe fisiere unde le puneam?
 - Router-ul înlocuiește IP-ul sursă cu IP public: `203.0.113.25`.
     
 - Serverul `example.com` trimite răspuns → router → VM.
-ce nu inteleg eu e asta: deci nat schimba din ip privat al vm ului cu ipul public al hostu
+ce nu inteleg eu e asta: deci nat schimba din ip privat al vm ului cu ipul public al hostului? dar eu credeam ca el ramane privat pana ajunge in ruter. si din ruter se tranforma in ip public. nu asa functioneaza? ipul din privat devine public cand ajunge in ruterula al de l avem in casa
