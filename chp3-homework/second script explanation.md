@@ -36,4 +36,4 @@ exit 1
 ```
 
 
-daca aveam mai multe fisiere unde le puneam?
+daca aveam mai multe fisiere unde le puneam?: Orice fișier HTML/JS/CSS pe care vrei să-l servești cu `python3 -m http.server` trebuie să fie **în directorul curent** de unde rulezi serverul sau în subfoldere.
