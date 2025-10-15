@@ -2,12 +2,11 @@ Write a script that will start a small web server listening an unused port betwe
 
 ```bash
 #!/usr/bin/env bash
-set -e
 
 DIR="/tmp/topserver"
 mkdir -p "$DIR"
 
-# Regenerăm pagina la 10s cu un snapshot din `top`
+# 1) Generează pagina la fiecare 10s cu un snapshot din `top`
 update_page() {
   while :; do
     {
@@ -21,19 +20,23 @@ update_page() {
   done
 }
 
+# pornește updater-ul în background și curăță la ieșire
 update_page & UP_PID=$!
-trap 'kill "$UP_PID" 2>/dev/null' EXIT
+trap 'kill "$UP_PID" 2>/dev/null; exit' INT TERM EXIT
 
-cd "$DIR" || exit 1
-IP=$(hostname -I 2>/dev/null | awk '{print $1}'); IP=${IP:-127.0.0.1}
+# 2) Servește directorul
+cd "$DIR" || { echo "Nu pot intra în $DIR" >&2; exit 1; }
 
-for PORT in $(seq 8000 9990); do
-  echo "Trying http://$IP:$PORT"
-  # Dacă portul e ocupat, http.server iese cu eroare și bucla trece la următorul
-  python3 -m http.server "$PORT" && exit 0
+# Alegem primul port liber ÎNCERCÂND să pornim serverul (cel mai simplu)
+for PORT in {8000..9990}; do
+  echo "Trying http://127.0.0.1:$PORT"
+  # Dacă portul e ocupat, http.server iese imediat și bucla continuă.
+  # La primul port liber, comanda rămâne în prim-plan și servește pagina.
+  python3 -m http.server "$PORT" --bind 127.0.0.1 2>/dev/null
 done
 
 echo "No free port found in 8000-9990" >&2
 exit 1
+
 
 ```
