@@ -50,7 +50,7 @@
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -200,11 +200,11 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "1727c6e53ec2dd54",
+  "active": "d00e233cc4aa5e92",
   "lastOpenFiles": [
-    "chp3-homework/first script explanation.md",
-    "chp3-homework/third exercise explanation.md",
     "chp3-homework/second script explanation.md",
+    "chp3-homework/third exercise explanation.md",
+    "chp3-homework/first script explanation.md",
     "Networking/port.md",
     "3.Linux/cmd networking.md",
     "3.Linux/concepts.md",
