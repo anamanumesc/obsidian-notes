@@ -28,8 +28,9 @@ PS C:\Users\bmaria> ssh -i "$env:USERPROFILE\.ssh\id_rsa_vm" remoteuser@192.168.
 8. deci eu daca vreau sa accesez internetul am nevoie neaparat de un ip public. cum se face aceasta tranzactie
 9. ce sunt procesele daemon. si de ce unele sunt daemon unele nu. daca eru pot sa incep si procese normale dar si procese daemon.. care e sensul
 10. dar nu asa sta cazul si cand vreau ca cineva sa acceseze un device? de ce trebuie neaparat pt vm acest port forwarwing? Pentru ca cineva de pe internet să ajungă la VM: router-ul trebuie să facă NAT/port forwarding de la IP public → IP privat.
-11. deci eu in casa mea folosesc ip privat dar cand vreau sa parasesc office-ul sau building-ul atunci ruterul imi ofera un ip public? deci ip-ul public 
+11. deci eu in casa mea folosesc ip privat dar cand vreau sa parasesc office-ul sau building-ul atunci ruterul imi ofera un ip public? deci ip-ul public unde e? in router/
 12. dar nu asa sta cazul si cand vreau ca cineva sa acceseze un device? de ce trebuie neaparat pt vm acest port forwarwing? Pentru ca cineva de pe internet să ajungă la VM: router-ul trebuie să facă NAT/port forwarding de la IP public → IP privat.
+13. da dar eu cand am rulat n
 
 
 
