@@ -1,26 +1,15 @@
 Write a script that will start a small web server listening an unused port between `8000-9990` that will show new `top` command output every 10 seconds.
 
 ```bash
-
 #!/usr/bin/env bash
-
-# Find a free port between 8000 and 9990
-PORT=""
-for p in $(seq 8000 9990); do
-#ss command 
-  if ! ss -ltn 2>/dev/null | grep -q ":$p"; then #looks for ports
-    PORT="$p"
-    break
-  fi
-done
-[ -z "$PORT" ] && PORT=8000
+set -e
 
 DIR="/tmp/topserver"
 mkdir -p "$DIR"
 
-# Update the page every 10s with fresh `top` output
+# Regenerăm pagina la 10s cu un snapshot din `top`
 update_page() {
-  while true; do
+  while :; do
     {
       echo '<!doctype html><html><head><meta charset="utf-8">'
       echo '<meta http-equiv="refresh" content="10"><title>top</title></head><body>'
@@ -36,6 +25,15 @@ update_page & UP_PID=$!
 trap 'kill "$UP_PID" 2>/dev/null' EXIT
 
 cd "$DIR" || exit 1
-echo "Serving http://$(hostname -I | awk "{print \$1}"):$PORT"
-python3 -m http.server "$PORT"
+IP=$(hostname -I 2>/dev/null | awk '{print $1}'); IP=${IP:-127.0.0.1}
+
+for PORT in $(seq 8000 9990); do
+  echo "Trying http://$IP:$PORT"
+  # Dacă portul e ocupat, http.server iese cu eroare și bucla trece la următorul
+  python3 -m http.server "$PORT" && exit 0
+done
+
+echo "No free port found in 8000-9990" >&2
+exit 1
+
 ```
