@@ -26,7 +26,7 @@ PS C:\Users\bmaria> ssh -i "$env:USERPROFILE\.ssh\id_rsa_vm" remoteuser@192.168.
 6. cum functioneaza aceasta comunicare intre vm si internet. gen care e regula. cum circula informastia de pe internet pe vm si inapoi
 7. ce inseamna asta: - Trebuie port forwarding pe router: port 80 → IP server.
 8. deci eu daca vreau sa accesez internetul am nevoie neaparat de un ip public. cum se face aceasta tranzactie
-9. ce sunt procesele daemon. si de ce unele sunt daemon unele nu. daca eru pot sa incep si procese normale dar si procese daem
+9. ce sunt procesele daemon. si de ce unele sunt daemon unele nu. daca eru pot sa incep si procese normale dar si procese daemon.. care e sensul
 
 
 
