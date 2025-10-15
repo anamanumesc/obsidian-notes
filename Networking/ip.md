@@ -1,1 +1,1 @@
-ip privat
+ip privat - folosit de alte device-uri din reteaua LAN
