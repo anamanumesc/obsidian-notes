@@ -11,7 +11,7 @@ update_page() {
     {
       echo '<!doctype html><html><head><meta charset="utf-8">'
       echo '<meta http-equiv="refresh" content="10"><title>top</title></head><body>'
-      echo "<h3>top snapshot</h3><p>Updated: $(date '+%Y-%m-%d %H:%M:%S %Z')</p><pre>"
+      echo '<h3>System top snapshot (auto-refresh every 10s)</h3><pre>'
       top -b -n1
       echo '</pre></body></html>'
     } > "$DIR/index.html"
