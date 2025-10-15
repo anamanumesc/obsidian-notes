@@ -20,9 +20,9 @@ update_page() {
 }
 
 update_page & UP_PID=$!
-trap 'kill "$UP_PID" 2>/dev/null; exit' INT TERM EXIT #
+trap 'kill "$UP_PID" 2>/dev/null; exit' INT TERM EXIT #signals
 
-cd "$DIR" || { echo "Nu pot intra in $DIR" >&2; exit 1; }
+cd "$DIR" || { echo "nu pot intra in $DIR" >&2; exit 1; }
 
 for PORT in {8000..9990}; do
   echo "Trying http://127.0.0.1:$PORT"
