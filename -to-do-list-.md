@@ -30,7 +30,8 @@ PS C:\Users\bmaria> ssh -i "$env:USERPROFILE\.ssh\id_rsa_vm" remoteuser@192.168.
 10. dar nu asa sta cazul si cand vreau ca cineva sa acceseze un device? de ce trebuie neaparat pt vm acest port forwarwing? Pentru ca cineva de pe internet să ajungă la VM: router-ul trebuie să facă NAT/port forwarding de la IP public → IP privat.
 11. deci eu in casa mea folosesc ip privat dar cand vreau sa parasesc office-ul sau building-ul atunci ruterul imi ofera un ip public? deci ip-ul public unde e? in router/
 12. dar nu asa sta cazul si cand vreau ca cineva sa acceseze un device? de ce trebuie neaparat pt vm acest port forwarwing? Pentru ca cineva de pe internet să ajungă la VM: router-ul trebuie să facă NAT/port forwarding de la IP public → IP privat.
-13. da dar eu cand am rulat n
+13. da dar eu cand am rulat ngpix pe vm si am vrut sa l accesez de pe host  nu mi a mers decat daca am facut port boinding: Nu e nevoie să ai port forwarding pentru LAN; port forwarding e necesar doar dacă vrei acces din internet.
+14. sa asculti pe 0.0.0. inseamna ca asculti t
 
 
 
