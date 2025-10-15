@@ -51,4 +51,6 @@ sudo journalctl -u nginx -f
 3. cum functioneaza ca ngnix sa astepre requesturi? gen cum le "Asculta ma rog"
 4. de unde stie browserul unde sa trimita requestul
 5. tema imi cere sa deschid in browser dar nu stiu daca se refera la browserul din vm sau din host.
-6. firewall-ul exista in browser sau in laptop? 
+6. firewall-ul exista in browser sau in laptop? cum functioneaza ad block-ul?
+7. daca vreau ca eu sa pot sa  accesez din browser de pe localhost ce trebuie sa fac
+8. daca vreau sa  accesez de pe broswer de pe 
