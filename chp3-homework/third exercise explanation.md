@@ -63,3 +63,18 @@ daca aveam mai multe fisiere unde le puneam?
 13. ngnix porneste un proces sau un 
 14. ce sunt procesele daemon? cine le porneste? 
 15. care e diferenta intradevar intre servicii si procese si socketuri?
+16. 1. VM-ul are de obicei **IP privat**, de exemplu `192.168.1.10`.
+    Când VM-ul vrea să acceseze internetul:
+    
+    - VM → router → NAT → internet.
+        
+    - NAT (Network Address Translation) schimbă IP-ul sursă din IP privat → IP public al router-ului.
+        Serverul extern de pe internet răspunde → pachetele ajung la IP-ul public al router-ului → NAT înlocuiește IP-ul destinație cu IP-ul privat → VM primește răspunsul.
+**Exemplu concret:**
+
+- VM trimite cerere către `example.com`.
+    
+- Router-ul înlocuiește IP-ul sursă cu IP public: `203.0.113.25`.
+    
+- Serverul `example.com` trimite răspuns → router → VM.
+ce nu inteleg eu e asta: deci nat schimba din ip privat al vm ului cu ipul public al hostu
