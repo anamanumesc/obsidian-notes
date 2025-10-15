@@ -20,7 +20,7 @@ update_page() {
 }
 
 update_page & UP_PID=$!
-trap 'kill "$UP_PID" 2>/dev/null; exit' INT TERM EXIT
+trap 'kill "$UP_PID" 2>/dev/null; exit' INT TERM EXIT #
 
 cd "$DIR" || { echo "Nu pot intra in $DIR" >&2; exit 1; }
 
