@@ -22,7 +22,8 @@ PS C:\Users\bmaria> ssh -i "$env:USERPROFILE\.ssh\id_rsa_vm" remoteuser@192.168.
 3. pai nu ai zis tu ca eu pot sa accesez din browserul hostului, serverul vm-ului doar daca fac port binding? tu ai zis si acum zici asta : - - Browser pe host → trebuie să folosești **IP-ul privat al VM** și firewall-ul să permită accesul.
         
 4. Important: host-ul trebuie să poată “vedea” VM-ul în rețea (network bridge sau NAT configurat).
-ce inseamna sa asculti pe asta?
+5. ce inseamna sa asculti pe asta? - Nginx ascultă deja pe `0.0.0.0:80`.
+6. cum f
 
 
 
