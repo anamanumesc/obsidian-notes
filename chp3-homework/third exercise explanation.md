@@ -50,4 +50,5 @@ sudo journalctl -u nginx -f
 2. ip-ul public sau privat al masinii virtuale sau al masinii host? 
 3. cum functioneaza ca ngnix sa astepre requesturi? gen cum le "Asculta ma rog"
 4. de unde stie browserul unde sa trimita requestul
-5. 
+5. tema imi cere sa deschid in browser dar nu stiu daca se refera la browserul din vm sau din host.
+6. firewall-ul exista in browser sau in laptop? 
