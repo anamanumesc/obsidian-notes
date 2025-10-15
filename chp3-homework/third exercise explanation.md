@@ -60,4 +60,4 @@ sudo journalctl -u nginx -f
 12.  -> permite traficul către 80 (HTTP) și 443 (HTTPS). ce inseamna catre? cuma dica deschid un port?
 13. ngnix porneste un proces sau un 
 14. ce sunt procesele daemon? cine le porneste? 
-15. care e diferenta intradevar intre servicii si procese?
+15. care e diferenta intradevar intre servicii si procese si socketuri?
