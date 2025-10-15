@@ -1,0 +1,1 @@
+a socket can be tcp or udp
