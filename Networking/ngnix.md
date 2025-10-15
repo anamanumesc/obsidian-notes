@@ -1,3 +1,10 @@
+deschide un socket TCP
+kernel-ul ii livreaza cererile http care vin din acel port
+
+
+
+
+---
 
 e un server static + reverse proxy
 static = livreaza fisiere html/css/js/imagini dintr un document root ales de mine
