@@ -34,3 +34,6 @@ exit 1
 
 
 ```
+
+
+daca aveam mai multe fisiere unde le puneam?

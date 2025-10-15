@@ -44,6 +44,8 @@ sudo journalctl -u nginx -f
 
 ```
 
+daca aveam mai multe fisiere unde le puneam?
+
 
 
 1. pe ce ip este afisat atunci # 5) Află IP-ul pentru a deschide din browser (de pe alt device în aceeași rețea) hostname -I | awk '{print $1}'-> în browser: http://<IP-ul_afisat>/ ?
