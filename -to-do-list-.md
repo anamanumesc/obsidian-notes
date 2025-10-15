@@ -32,6 +32,7 @@ PS C:\Users\bmaria> ssh -i "$env:USERPROFILE\.ssh\id_rsa_vm" remoteuser@192.168.
 12. dar nu asa sta cazul si cand vreau ca cineva sa acceseze un device? de ce trebuie neaparat pt vm acest port forwarwing? Pentru ca cineva de pe internet să ajungă la VM: router-ul trebuie să facă NAT/port forwarding de la IP public → IP privat.
 13. da dar eu cand am rulat ngpix pe vm si am vrut sa l accesez de pe host  nu mi a mers decat daca am facut port boinding: Nu e nevoie să ai port forwarding pentru LAN; port forwarding e necesar doar dacă vrei acces din internet.. eu cred ca confund port bonding cu port forwarding. ajuta ma sa inteleg la ce ma refer
 14. sa asculti pe 0.0.0. inseamna ca asculti toate cererile TOATE? DE ORIUNDE? cum, adica. si lcoal host sit top
+15. Poți porni orice proces ca daemon folosind `&` sau `systemd`. ok
 
 
 

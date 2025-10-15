@@ -1,0 +1,1 @@
+Poți porni orice proces ca daemon folosind `&` sau `systemd`
