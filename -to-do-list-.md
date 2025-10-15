@@ -16,6 +16,11 @@ PS C:\Users\bmaria> ssh -i "$env:USERPROFILE\.ssh\id_rsa_vm" remoteuser@192.168.
 
 
 
+deci cum se folosesc ip private si publice. mai ales in cazul meu aici
+ce e socket bonding asta
+ce este 
+
+
 
 
 
