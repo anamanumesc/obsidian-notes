@@ -47,4 +47,7 @@ sudo journalctl -u nginx -f
 
 
 1. pe ce ip este afisat atunci # 5) Află IP-ul pentru a deschide din browser (de pe alt device în aceeași rețea) hostname -I | awk '{print $1}'-> în browser: http://<IP-ul_afisat>/ ?
-2. de c
+2. ip-ul public sau privat al masinii virtuale sau al masinii host? 
+3. cum functioneaza ca ngnix sa astepre requesturi? gen cum le "Asculta ma rog"
+4. de unde stie browserul unde sa trimita requestul
+5. 
