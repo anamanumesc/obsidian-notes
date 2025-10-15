@@ -24,7 +24,8 @@ PS C:\Users\bmaria> ssh -i "$env:USERPROFILE\.ssh\id_rsa_vm" remoteuser@192.168.
 4. Important: host-ul trebuie să poată “vedea” VM-ul în rețea (network bridge sau NAT configurat).
 5. ce inseamna sa asculti pe asta? - Nginx ascultă deja pe `0.0.0.0:80`.
 6. cum functioneaza aceasta comunicare intre vm si internet. gen care e regula. cum circula informastia de pe internet pe vm si inapoi
-7. 
+7. ce inseamna asta: - Trebuie port forwarding pe router: port 80 → IP server.
+8. deci eu daca vreau sa accesez internetul am nevoie neaparat de un ip public. cum s
 
 
 
