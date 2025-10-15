@@ -79,4 +79,4 @@ daca aveam mai multe fisiere unde le puneam?
 - Serverul `example.com` trimite răspuns → router → VM.
 ce nu inteleg eu e asta: deci nat schimba din ip privat al vm ului cu ipul public al hostului? dar eu credeam ca el ramane privat pana ajunge in ruter. si din ruter se tranforma in ip public. nu asa functioneaza? ipul din privat devine public cand ajunge in ruterula al de l avem in casa
 
-17. atunci cand fac o cerere de pe browser de pe host oe
+17. atunci cand fac o cerere de pe browser de pe host si serverul e pe vm, cererea asta e in Lan nu? pai si de ce am nevoie de ip public daca ambele sunt pe acelasi device. de ce am nevoie de port bonding de ala
