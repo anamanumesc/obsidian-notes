@@ -53,4 +53,7 @@ sudo journalctl -u nginx -f
 5. tema imi cere sa deschid in browser dar nu stiu daca se refera la browserul din vm sau din host.
 6. firewall-ul exista in browser sau in laptop? cum functioneaza ad block-ul?
 7. daca vreau ca eu sa pot sa  accesez din browser de pe localhost ce trebuie sa fac
-8. daca vreau sa  accesez de pe broswer de pe 
+8. daca vreau sa accesez de pe broswer de pe host amchien ce trebuie sa fac?
+9. daca vreau sa accesez din lan ce trebuie sa fac?
+10. daca rveau sa accesez de pe internet ce trebuie sa fac??
+11. ajunge doar sa imi dau share la ip? si apoi browserul cu ip0ul si portul acceseaza ce are nevoie?
