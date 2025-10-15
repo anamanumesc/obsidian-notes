@@ -22,6 +22,34 @@
             }
           },
           {
+            "id": "1727c6e53ec2dd54",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "chp3-homework/second script explanation.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "second script explanation"
+            }
+          },
+          {
+            "id": "afc0aa682156e755",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "chp3-homework/first script explanation.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "first script explanation"
+            }
+          },
+          {
             "id": "d00e233cc4aa5e92",
             "type": "leaf",
             "state": {
@@ -92,7 +120,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 277.5047149658203
+    "width": 277.5047149658203,
+    "collapsed": true
   },
   "right": {
     "id": "665f98919aa3d73c",
@@ -186,9 +215,10 @@
   },
   "active": "6fd6952e0822df9f",
   "lastOpenFiles": [
-    "chp3-homework/second script explanation.md",
-    "chp3-homework/third exercise explanation.md",
     "chp3-homework/first script explanation.md",
+    "chp3-homework/second script explanation.md",
+    "Networking/port.md",
+    "chp3-homework/third exercise explanation.md",
     "3.Linux/cmd networking.md",
     "3.Linux/concepts.md",
     "3.Linux/cmd debugging and monitoring.md",
@@ -206,7 +236,6 @@
     "hmw/to send.md",
     "Networking/firewall.md",
     "Networking/exposing.md",
-    "Networking/port.md",
     "Networking/ngnix.md",
     "Networking/web.md",
     "3.Linux/cmd text processing.md",
