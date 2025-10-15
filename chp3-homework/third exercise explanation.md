@@ -19,7 +19,8 @@ sudo ufw allow 'Nginx Full'
 # -> permite traficul către 80 (HTTP) și 443 (HTTPS)
 
 # 4) Verifică că Nginx ascultă pe 80 și că pagina răspunde local
-ss -ltnp | grep ':80'          # vezi că ascultă pe 0.0.0.0:80
+sudo netstat -ltnp | grep ':80'
+         # vezi că ascultă pe 0.0.0.0:80
 curl http://localhost/         # ar trebui să vezi conținutul "Hello, world!"
 
 # 5) Află IP-ul pentru a deschide din browser (de pe alt device în aceeași rețea)
