@@ -58,3 +58,4 @@ sudo journalctl -u nginx -f
 10. daca rveau sa accesez de pe internet ce trebuie sa fac??
 11. ajunge doar sa imi dau share la ip? si apoi browserul cu ip0ul si portul acceseaza ce are nevoie?
 12.  -> permite traficul către 80 (HTTP) și 443 (HTTPS). ce inseamna catre? cuma dica deschid un port?
+13. ngnix porneste un proces sau un 
