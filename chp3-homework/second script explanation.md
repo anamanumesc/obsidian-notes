@@ -14,7 +14,7 @@ update_page() {
       echo '<h3>system top snapshot </h3><pre>'
       top -b -n1
       echo '</pre></body></html>'
-    } > "$DIR/index.html"
+    } > "$DIR/top.html"
     sleep 10
   done
 }
