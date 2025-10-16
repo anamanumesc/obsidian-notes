@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Networking/port.md",
+                "file": "chp3-homework/first script explanation.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "port"
+              "title": "first script explanation"
             }
           },
           {
@@ -122,7 +122,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Networking/port.md",
+                "file": "chp3-homework/first script explanation.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -132,7 +132,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for port"
+              "title": "Backlinks for first script explanation"
             }
           },
           {
@@ -200,17 +200,17 @@
   },
   "active": "afc0aa682156e755",
   "lastOpenFiles": [
+    "chp3-homework/third exercise explanation.md",
+    "chp3-homework/first script explanation.md",
+    "Networking/port.md",
     "Networking/procese.md",
     "zzzzz images/script 2.md",
     "zzzzz images/Pasted image 20251013151451.png",
-    "chp3-homework/first script explanation.md",
     "chp3-homework/second script explanation.md",
-    "chp3-homework/third exercise explanation.md",
     "-to-do-list-.md",
     "Networking/systemd.md",
     "Networking/sockets.md",
     "Networking/ip.md",
-    "Networking/port.md",
     "3.Linux/cmd networking.md",
     "3.Linux/concepts.md",
     "3.Linux/cmd debugging and monitoring.md",
