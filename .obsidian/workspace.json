@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "65404c43d0b371b2",
+        "id": "5ea908bcd7cc735d",
         "type": "tabs",
         "children": [
           {
-            "id": "159307400294c114",
+            "id": "6515882685aff12c",
             "type": "leaf",
             "state": {
               "type": "empty",
@@ -74,8 +74,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 277.5047149658203,
-    "collapsed": true
+    "width": 277.5047149658203
   },
   "right": {
     "id": "665f98919aa3d73c",
@@ -167,7 +166,7 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "159307400294c114",
+  "active": "6515882685aff12c",
   "lastOpenFiles": [
     "chp3-homework/third exercise explanation.md",
     "chp3-homework/second script explanation.md",
