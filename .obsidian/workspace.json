@@ -4,49 +4,17 @@
     "type": "split",
     "children": [
       {
-        "id": "f4134d23f123b1a5",
+        "id": "65404c43d0b371b2",
         "type": "tabs",
         "children": [
           {
-            "id": "afc0aa682156e755",
+            "id": "159307400294c114",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "chp3-homework/third exercise explanation.md",
-                "mode": "source",
-                "source": false
-              },
+              "type": "empty",
+              "state": {},
               "icon": "lucide-file",
-              "title": "third exercise explanation"
-            }
-          },
-          {
-            "id": "1727c6e53ec2dd54",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "chp3-homework/second script explanation.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "second script explanation"
-            }
-          },
-          {
-            "id": "d00e233cc4aa5e92",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "chp3-homework/third exercise explanation.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "third exercise explanation"
+              "title": "New tab"
             }
           }
         ]
@@ -123,7 +91,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "chp3-homework/third exercise explanation.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -133,7 +100,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for third exercise explanation"
+              "title": "Backlinks"
             }
           },
           {
@@ -200,11 +167,11 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "afc0aa682156e755",
+  "active": "159307400294c114",
   "lastOpenFiles": [
+    "chp3-homework/third exercise explanation.md",
     "chp3-homework/second script explanation.md",
     "chp3-homework/first script explanation.md",
-    "chp3-homework/third exercise explanation.md",
     "Networking/port.md",
     "Networking/procese.md",
     "zzzzz images/script 2.md",
