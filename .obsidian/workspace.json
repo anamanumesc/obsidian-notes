@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Networking/https.md",
+                "file": "4.Networking/https.md",
                 "mode": "source",
                 "source": false
               },
@@ -25,14 +25,12 @@
             "id": "21e13f6bcd35fa78",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "image",
               "state": {
-                "file": "Networking/network interface.md",
-                "mode": "source",
-                "source": false
+                "file": "zzzzz images/Pasted image 20251013151451.png"
               },
-              "icon": "lucide-file",
-              "title": "network interface"
+              "icon": "lucide-image",
+              "title": "Pasted image 20251013151451"
             }
           }
         ],
@@ -109,7 +107,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Networking/network interface.md",
+                "file": "zzzzz images/Pasted image 20251013151451.png",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -119,7 +117,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for network interface"
+              "title": "Backlinks for Pasted image 20251013151451"
             }
           },
           {
@@ -186,26 +184,27 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "21e13f6bcd35fa78",
+  "active": "a7083aa2c22a4689",
   "lastOpenFiles": [
-    "Networking/homework.md",
-    "Networking/network interface.md",
-    "Networking/https.md",
-    "Networking/notes w1.md",
-    "Networking/web.md",
-    "zzzzz images/script 2.md",
+    "Networking/script 2.md",
     "zzzzz images/Pasted image 20251013151451.png",
+    "4.Networking/network interface.md",
+    "attachments/Pasted image 20251018223529.png",
+    "4.Networking/homework.md",
+    "4.Networking/https.md",
+    "4.Networking/notes w1.md",
+    "4.Networking/web.md",
     "zzzzz images/Untitled.base",
     "chp3-homework/third exercise explanation.md",
     "chp3-homework/gitlab.md",
     "chp3-homework/first script explanation.md",
     "-to-do-list-.md",
     "chp3-homework/second script explanation.md",
-    "Networking/port.md",
-    "Networking/procese.md",
-    "Networking/systemd.md",
-    "Networking/sockets.md",
-    "Networking/ip.md",
+    "4.Networking/port.md",
+    "4.Networking/procese.md",
+    "4.Networking/systemd.md",
+    "4.Networking/sockets.md",
+    "4.Networking/ip.md",
     "3.Linux/cmd networking.md",
     "3.Linux/concepts.md",
     "3.Linux/cmd debugging and monitoring.md",
@@ -215,7 +214,6 @@
     "3.Linux/bash.md",
     "hmw/ltr.md",
     "hmw/plan.md",
-    "hmw/project questions.md",
     "attachments/Pasted image 20251013153930.png",
     "attachments/Pasted image 20251013151612.png",
     "attachments",

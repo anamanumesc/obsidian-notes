@@ -10,7 +10,7 @@ it can only be decripted with the private key
 CA = Certificate Authority (lets encript, DigiCert)
 
 
-openssl 
+openssl -> 
 
 
 
