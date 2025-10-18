@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "4.Networking/https.md",
+                "file": "4.Networking/protocols/https.md",
                 "mode": "source",
                 "source": false
               },
@@ -25,12 +25,14 @@
             "id": "21e13f6bcd35fa78",
             "type": "leaf",
             "state": {
-              "type": "image",
+              "type": "markdown",
               "state": {
-                "file": "zzzzz images/Pasted image 20251013151451.png"
+                "file": "4.Networking/netsh.md",
+                "mode": "source",
+                "source": false
               },
-              "icon": "lucide-image",
-              "title": "Pasted image 20251013151451"
+              "icon": "lucide-file",
+              "title": "netsh"
             }
           }
         ],
@@ -91,7 +93,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 277.5047149658203
+    "width": 755.5065116882324
   },
   "right": {
     "id": "665f98919aa3d73c",
@@ -107,7 +109,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "zzzzz images/Pasted image 20251013151451.png",
+                "file": "4.Networking/netsh.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -117,7 +119,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for Pasted image 20251013151451"
+              "title": "Backlinks for netsh"
             }
           },
           {
@@ -184,14 +186,21 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "a7083aa2c22a4689",
+  "active": "21e13f6bcd35fa78",
   "lastOpenFiles": [
-    "Networking/script 2.md",
-    "zzzzz images/Pasted image 20251013151451.png",
-    "4.Networking/network interface.md",
-    "attachments/Pasted image 20251018223529.png",
     "4.Networking/homework.md",
-    "4.Networking/https.md",
+    "4.Networking/netsh.md",
+    "4.Networking/exposing.md",
+    "4.Networking/protocols/firewall.md",
+    "4.Networking/RDP - remote desktop control.md",
+    "4.Networking/protocols",
+    "3.Linux/driver.md",
+    "4.Networking/protocols/https.md",
+    "4.Networking/network interface.md",
+    "attachments/Pasted image 20251018224914.png",
+    "zzzzz images/Pasted image 20251013151451.png",
+    "Networking/script 2.md",
+    "attachments/Pasted image 20251018223529.png",
     "4.Networking/notes w1.md",
     "4.Networking/web.md",
     "zzzzz images/Untitled.base",
@@ -204,16 +213,12 @@
     "4.Networking/procese.md",
     "4.Networking/systemd.md",
     "4.Networking/sockets.md",
-    "4.Networking/ip.md",
+    "4.Networking/protocols/ip.md",
     "3.Linux/cmd networking.md",
     "3.Linux/concepts.md",
     "3.Linux/cmd debugging and monitoring.md",
     "3.Linux/cmd users and permissions.md",
     "3.Linux/cmd connecting to server.md",
-    "3.Linux/cmd filesystem and navigation.md",
-    "3.Linux/bash.md",
-    "hmw/ltr.md",
-    "hmw/plan.md",
     "attachments/Pasted image 20251013153930.png",
     "attachments/Pasted image 20251013151612.png",
     "attachments",
@@ -223,7 +228,6 @@
     "3.Linux",
     "2.Agile",
     "homeworl",
-    "hmw",
-    "1.Introduction to DevOps"
+    "hmw"
   ]
 }
