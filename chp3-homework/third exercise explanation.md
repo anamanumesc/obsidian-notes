@@ -80,3 +80,26 @@ daca aveam mai multe fisiere unde le puneam?
 ce nu inteleg eu e asta: deci nat schimba din ip privat al vm ului cu ipul public al hostului? dar eu credeam ca el ramane privat pana ajunge in ruter. si din ruter se tranforma in ip public. nu asa functioneaza? ipul din privat devine public cand ajunge in ruterula al de l avem in casa
 
 17. atunci cand fac o cerere de pe browser de pe host si serverul e pe vm, cererea asta e in Lan nu? pai si de ce am nevoie de ip public daca ambele sunt pe acelasi device. de ce am nevoie de port bonding de ala
+
+
+
+
+
+18. deci cum se folosesc ip private si publice. mai ales in cazul meu aici
+19. ce e socket bonding asta
+
+20. pai nu ai zis tu ca eu pot sa accesez din browserul hostului, serverul vm-ului doar daca fac port binding? tu ai zis si acum zici asta : - - Browser pe host → trebuie să folosești **IP-ul privat al VM** și firewall-ul să permită accesul.
+        
+21. Important: host-ul trebuie să poată “vedea” VM-ul în rețea (network bridge sau NAT configurat).
+22. ce inseamna sa asculti pe asta? - Nginx ascultă deja pe `0.0.0.0:80`.
+23. cum functioneaza aceasta comunicare intre vm si internet. gen care e regula. cum circula informastia de pe internet pe vm si inapoi
+24. ce inseamna asta: - Trebuie port forwarding pe router: port 80 → IP server.
+25. deci eu daca vreau sa accesez internetul am nevoie neaparat de un ip public. cum se face aceasta tranzactie
+26. ce sunt procesele daemon. si de ce unele sunt daemon unele nu. daca eru pot sa incep si procese normale dar si procese daemon.. care e sensul
+27. dar nu asa sta cazul si cand vreau ca cineva sa acceseze un device? de ce trebuie neaparat pt vm acest port forwarwing? Pentru ca cineva de pe internet să ajungă la VM: router-ul trebuie să facă NAT/port forwarding de la IP public → IP privat.
+28. deci eu in casa mea folosesc ip privat dar cand vreau sa parasesc office-ul sau building-ul atunci ruterul imi ofera un ip public? deci ip-ul public unde e? in router/
+29. dar nu asa sta cazul si cand vreau ca cineva sa acceseze un device? de ce trebuie neaparat pt vm acest port forwarwing? Pentru ca cineva de pe internet să ajungă la VM: router-ul trebuie să facă NAT/port forwarding de la IP public → IP privat.
+30. da dar eu cand am rulat ngpix pe vm si am vrut sa l accesez de pe host  nu mi a mers decat daca am facut port boinding: Nu e nevoie să ai port forwarding pentru LAN; port forwarding e necesar doar dacă vrei acces din internet.. eu cred ca confund port bonding cu port forwarding. ajuta ma sa inteleg la ce ma refer
+31. sa asculti pe 0.0.0. inseamna ca asculti toate cererile TOATE? DE ORIUNDE? cum, adica. si lcoal host sit top
+32. Poți porni orice proces ca daemon folosind `&` sau `systemd`. ok dar ce avantaje au aceste procese ce scop au si cum functioneaza
+

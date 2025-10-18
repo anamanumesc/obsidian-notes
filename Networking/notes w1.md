@@ -5,7 +5,6 @@ Tu ai o **placă de rețea virtuală**,
 → care este văzută în Ubuntu ca o **interfață de rețea** cu propriul IP.
 
 
-
 why cant virtualbox vm and wsl coexist
 - they use the same hardware virtualization -> a processor feature called HYPERVISOR
 - it uses Microsoft Hyper-V
