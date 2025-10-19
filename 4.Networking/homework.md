@@ -20,14 +20,21 @@ _Encryption, Public and Private Keys, SSL/TLS Certificates, CSR (Certificate Sig
 Tasks involving setup and configuration of network interfaces, routing, and hostnames.
 
 1. **(17)** Configure a dummy interface and setup IP Forward (Linux).
+- what is ip forward?
+- what are examples of this interfaces. how do each work. are they rules? are they just algoriths
     
-2. **(15)** Configure RDP on Windows 10 and Server 2016.
+1. **(15)** Configure RDP on Windows 10 and Server 2016.
+- so i understand this means remotely connecting to a gui. its like teamviewer?? 
+- how does it work? when is it used? why is it used if i can use cmd
     
-3. **(14)** Configure network interfaces using netsh.
+1. **(14)** Configure network interfaces using netsh.
+- what even is a network interface. what are the types of network interface? what is it a file? what does it contain? what is it used for?
     
-4. **(13)** Define and use Hostnames between machines.
+1. **(13)** Define and use Hostnames between machines.
+- where is this information stored?
+- why do we 
     
-5. **(16)** Setup a Hostname for your Windows machine and ping it.
+3. **(16)** Setup a Hostname for your Windows machine and ping it.
     
 IP Addressing, Network Interfaces, Subnets, Routing, Hostnames, NAT (Network Address Translation), DHCP (Dynamic Host Configuration Protocol), VLAN (Virtual LAN), RDP (Remote Desktop Protocol), Windows & Linux Network Tools.
 

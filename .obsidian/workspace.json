@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "4.Networking/DHCP.md",
+                "file": "4.Networking/5. network layer/DHCP.md",
                 "mode": "source",
                 "source": false
               },
@@ -27,7 +27,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "4.Networking/network interface.md",
+                "file": "4.Networking/Tools/network interface.md",
                 "mode": "source",
                 "source": false
               },
@@ -36,20 +36,49 @@
             }
           },
           {
+            "id": "a4a2a85ce08aa740",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "4.Networking/protocols/firewall.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "firewall"
+            }
+          },
+          {
             "id": "af822c6753fa983c",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "4.Networking/protocols/https.md",
+                "file": "4.Networking/1. application layer/https.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
               "title": "https"
             }
+          },
+          {
+            "id": "7c0ab4a7d2843ff3",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "4.Networking/homework.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "homework"
+            }
           }
-        ]
+        ],
+        "currentTab": 4
       }
     ],
     "direction": "vertical"
@@ -106,7 +135,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 314.5065116882324
+    "width": 565.5013427734375
   },
   "right": {
     "id": "665f98919aa3d73c",
@@ -122,7 +151,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "4.Networking/DHCP.md",
+                "file": "4.Networking/homework.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -132,7 +161,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for DHCP"
+              "title": "Backlinks for homework"
             }
           },
           {
@@ -199,48 +228,47 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "a7083aa2c22a4689",
+  "active": "7c0ab4a7d2843ff3",
   "lastOpenFiles": [
+    "4.Networking/1. application layer/https.md",
+    "4.Networking/protocols/firewall.md",
+    "4.Networking/Tools",
+    "4.Networking/systemd.md",
+    "4.Networking/3. session layer",
+    "4.Networking/6. data link layer/switches.md",
+    "4.Networking/web drum.md",
+    "3.Linux/driver.md",
+    "3.Linux/cmd filesystem and navigation.md",
+    "4.Networking/homework.md",
+    "4.Networking/Tools/network interface.md",
+    "4.Networking/5. network layer/DHCP.md",
     "4.Networking/phisical layer",
-    "4.Networking/5. data link layer",
-    "4.Networking/4. network layer",
-    "4.Networking/3. transport layer",
+    "4.Networking/6. data link layer",
+    "4.Networking/5. network layer",
+    "4.Networking/4. transport layer",
     "4.Networking/Untitled.md",
     "4.Networking/ssl & tsl certificates.md",
     "4.Networking/3. transport layer.md",
     "4.Networking/2. presentation layer",
     "4.Networking/1. application layer",
-    "4.Networking/protocols/https.md",
-    "4.Networking/DHCP.md",
-    "4.Networking/network interface.md",
-    "4.Networking/homework.md",
-    "4.Networking/exposing.md",
+    "4.Networking/5. network layer/exposing.md",
     "4.Networking/netsh.md",
     "4.Networking/notes w2.md",
-    "4.Networking/port.md",
+    "4.Networking/4. transport layer/port.md",
     "4.Networking/proxy vs reverse proxy vs load balancer.md",
-    "4.Networking/sockets.md",
+    "4.Networking/4. transport layer/sockets.md",
     "4.Networking/hostname....md",
-    "4.Networking/wireshark.md",
-    "4.Networking/VPN.md",
-    "4.Networking/switches.md",
+    "4.Networking/Tools/wireshark.md",
+    "4.Networking/4. transport layer/VPN.md",
     "4.Networking/routers.md",
-    "4.Networking/gateway....md",
-    "4.Networking/protocols/firewall.md",
+    "4.Networking/5. network layer/gateway....md",
     "4.Networking/RDP - remote desktop control.md",
     "4.Networking/protocols",
-    "3.Linux/driver.md",
     "attachments/Pasted image 20251018224914.png",
     "zzzzz images/Pasted image 20251013151451.png",
-    "Networking/script 2.md",
     "attachments/Pasted image 20251018223529.png",
-    "4.Networking/notes w1.md",
-    "4.Networking/web.md",
     "zzzzz images/Untitled.base",
     "attachments/Pasted image 20251013153930.png",
-    "attachments/Pasted image 20251013151612.png",
-    "attachments",
-    "zzzzz images",
-    "-to-do-list-"
+    "attachments/Pasted image 20251013151612.png"
   ]
 }
