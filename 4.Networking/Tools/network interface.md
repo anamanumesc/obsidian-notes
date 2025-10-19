@@ -20,3 +20,18 @@ vpn
 physical interface:
 wifi card
 ethernet
+
+
+
+
+Each interface can have:
+
+- An **IP address**
+    
+- A **subnet mask**
+    
+- A **gateway**
+    
+- A **DNS configuration**
+    
+- A **MAC address**

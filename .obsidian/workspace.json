@@ -78,6 +78,20 @@
             }
           },
           {
+            "id": "4a14c608ecc6369d",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "4.Networking/homework.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "homework"
+            }
+          },
+          {
             "id": "e045806d44464e3b",
             "type": "leaf",
             "state": {
@@ -179,7 +193,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "4.Networking/RDP - remote desktop control.md",
+                "file": "4.Networking/homework.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -189,7 +203,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for RDP - remote desktop control"
+              "title": "Backlinks for homework"
             }
           },
           {
@@ -256,16 +270,16 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "e045806d44464e3b",
+  "active": "4a14c608ecc6369d",
   "lastOpenFiles": [
-    "4.Networking/homework.md",
     "4.Networking/Tools/network interface.md",
+    "4.Networking/RDP - remote desktop control.md",
+    "4.Networking/homework.md",
     "4.Networking/ip forwarding.md",
     "attachments/Pasted image 20251019221452.png",
     "4.Networking/systemd.md",
     "4.Networking/ssl & tsl certificates.md",
     "4.Networking/routers.md",
-    "4.Networking/RDP - remote desktop control.md",
     "4.Networking/procese.md",
     "4.Networking/1. application layer/https.md",
     "4.Networking/protocols/firewall.md",
