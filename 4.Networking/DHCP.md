@@ -1,0 +1,1 @@
+DHCP automatically gives devices IP addresses when they join a network.

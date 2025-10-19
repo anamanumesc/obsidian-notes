@@ -27,12 +27,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "4.Networking/DHCP....md",
+                "file": "4.Networking/DHCP.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "DHCP..."
+              "title": "DHCP"
             }
           },
           {
@@ -216,11 +216,15 @@
   },
   "active": "af822c6753fa983c",
   "lastOpenFiles": [
+    "4.Networking/wireshark.md",
+    "4.Networking/VPN.md",
+    "4.Networking/DHCP.md",
+    "4.Networking/switches.md",
+    "4.Networking/routers.md",
+    "4.Networking/homework.md",
     "4.Networking/hostname....md",
     "4.Networking/network interface.md",
-    "4.Networking/homework.md",
     "4.Networking/protocols/https.md",
-    "4.Networking/DHCP....md",
     "4.Networking/gateway....md",
     "4.Networking/netsh.md",
     "4.Networking/exposing.md",
@@ -243,10 +247,6 @@
     "4.Networking/port.md",
     "4.Networking/procese.md",
     "4.Networking/systemd.md",
-    "4.Networking/sockets.md",
-    "4.Networking/protocols/ip.md",
-    "3.Linux/cmd networking.md",
-    "3.Linux/concepts.md",
     "attachments/Pasted image 20251013153930.png",
     "attachments/Pasted image 20251013151612.png",
     "attachments",
