@@ -69,16 +69,44 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "4.Networking/homework.md",
+                "file": "4.Networking/Tools/network interface.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "homework"
+              "title": "network interface"
+            }
+          },
+          {
+            "id": "e045806d44464e3b",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "4.Networking/RDP - remote desktop control.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "RDP - remote desktop control"
+            }
+          },
+          {
+            "id": "7a50fd0c35b003d3",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "4.Networking/ip forwarding.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "ip forwarding"
             }
           }
         ],
-        "currentTab": 4
+        "currentTab": 5
       }
     ],
     "direction": "vertical"
@@ -135,7 +163,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 565.5013427734375
+    "width": 353.5013427734375
   },
   "right": {
     "id": "665f98919aa3d73c",
@@ -151,7 +179,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "4.Networking/homework.md",
+                "file": "4.Networking/RDP - remote desktop control.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -161,7 +189,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for homework"
+              "title": "Backlinks for RDP - remote desktop control"
             }
           },
           {
@@ -228,26 +256,30 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "7c0ab4a7d2843ff3",
+  "active": "e045806d44464e3b",
   "lastOpenFiles": [
+    "4.Networking/homework.md",
+    "4.Networking/Tools/network interface.md",
+    "4.Networking/ip forwarding.md",
+    "attachments/Pasted image 20251019221452.png",
+    "4.Networking/systemd.md",
+    "4.Networking/ssl & tsl certificates.md",
+    "4.Networking/routers.md",
+    "4.Networking/RDP - remote desktop control.md",
+    "4.Networking/procese.md",
     "4.Networking/1. application layer/https.md",
     "4.Networking/protocols/firewall.md",
     "4.Networking/Tools",
-    "4.Networking/systemd.md",
     "4.Networking/3. session layer",
     "4.Networking/6. data link layer/switches.md",
     "4.Networking/web drum.md",
     "3.Linux/driver.md",
     "3.Linux/cmd filesystem and navigation.md",
-    "4.Networking/homework.md",
-    "4.Networking/Tools/network interface.md",
     "4.Networking/5. network layer/DHCP.md",
     "4.Networking/phisical layer",
     "4.Networking/6. data link layer",
     "4.Networking/5. network layer",
     "4.Networking/4. transport layer",
-    "4.Networking/Untitled.md",
-    "4.Networking/ssl & tsl certificates.md",
     "4.Networking/3. transport layer.md",
     "4.Networking/2. presentation layer",
     "4.Networking/1. application layer",
@@ -260,9 +292,6 @@
     "4.Networking/hostname....md",
     "4.Networking/Tools/wireshark.md",
     "4.Networking/4. transport layer/VPN.md",
-    "4.Networking/routers.md",
-    "4.Networking/5. network layer/gateway....md",
-    "4.Networking/RDP - remote desktop control.md",
     "4.Networking/protocols",
     "attachments/Pasted image 20251018224914.png",
     "zzzzz images/Pasted image 20251013151451.png",

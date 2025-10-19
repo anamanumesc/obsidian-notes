@@ -26,15 +26,18 @@ Tasks involving setup and configuration of network interfaces, routing, and host
 1. **(15)** Configure RDP on Windows 10 and Server 2016.
 - so i understand this means remotely connecting to a gui. its like teamviewer?? 
 - how does it work? when is it used? why is it used if i can use cmd
+
     
 1. **(14)** Configure network interfaces using netsh.
 - what even is a network interface. what are the types of network interface? what is it a file? what does it contain? what is it used for?
     
 1. **(13)** Define and use Hostnames between machines.
 - where is this information stored?
-- why do we 
+- where do we keep it
+- is it only on lan? is it on dns?
     
-3. **(16)** Setup a Hostname for your Windows machine and ping it.
+1. **(16)** Setup a Hostname for your Windows machine and ping it.
+- idk what windows machine u mean tho. what machine? like the one im on?
     
 IP Addressing, Network Interfaces, Subnets, Routing, Hostnames, NAT (Network Address Translation), DHCP (Dynamic Host Configuration Protocol), VLAN (Virtual LAN), RDP (Remote Desktop Protocol), Windows & Linux Network Tools.
 

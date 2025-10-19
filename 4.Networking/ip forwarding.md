@@ -1,0 +1,4 @@
+- its when ur linux machine receives packets that are not meant for itself and forwards them to another network
+- acts like a router
+- it needs multiple interfaces to make sense
+- allows data to flow trough the connection points between the computer and a network
