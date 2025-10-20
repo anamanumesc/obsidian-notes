@@ -1,0 +1,2 @@
+like ssh but secure
+**Telnet** — it allows remote access to another computer over a network, but unlike SSH, **Telnet is not encrypted**, meaning all data (including passwords) is sent in **plain text**.

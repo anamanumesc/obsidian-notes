@@ -41,12 +41,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "4.Networking/4. transport layer/udp & tcp & sctp.md",
+                "file": "4.Networking/4. transport layer/4. transport layer.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "udp & tcp & sctp"
+              "title": "4. transport layer"
             }
           }
         ],
@@ -82,7 +82,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "arp",
+                "query": "telnet",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -202,17 +202,24 @@
   },
   "active": "66dcdebb5aa0db66",
   "lastOpenFiles": [
-    "4.Networking/1. application layer/www https.md",
-    "4.Networking/4. transport layer/udp & tcp & sctp.md",
-    "4.Networking/1. application layer/P2P.md",
-    "4.Networking/1. application layer/Untitled",
+    "4.Networking/5. network layer/5. network layer.md",
+    "4.Networking/4. transport layer/4. transport layer.md",
     "4.Networking/5. network layer/OSPF.md",
-    "4.Networking/5. network layer/IP.md",
     "4.Networking/5. network layer/IGMP.md",
     "4.Networking/5. network layer/ICMP.md",
     "4.Networking/5. network layer/IPsec.md",
-    "4.Networking/5. network layer/ping.md",
     "4.Networking/5. network layer/ARP.md",
+    "4.Networking/2. presentation layer/avi.md",
+    "4.Networking/2. presentation layer/sockets.md",
+    "4.Networking/1. application layer/telnet.md",
+    "3.Linux/cmd networking.md",
+    "chp3-homework/gitlab.md",
+    "4.Networking/4. transport layer/udp & tcp & sctp.md",
+    "4.Networking/1. application layer/www https.md",
+    "4.Networking/1. application layer/P2P.md",
+    "4.Networking/1. application layer/Untitled",
+    "4.Networking/5. network layer/IP.md",
+    "4.Networking/5. network layer/ping.md",
     "4.Networking/extra/homework.md",
     "4.Networking/4. transport layer/ssl & tls certificates.md",
     "4.Networking/Tools/network interface.md",
@@ -222,13 +229,6 @@
     "4.Networking/hostname....md",
     "4.Networking/how containers network.md",
     "4.Networking/ip forwarding.md",
-    "4.Networking/procese.md",
-    "4.Networking/proxy vs reverse proxy vs load balancer.md",
-    "4.Networking/routers.md",
-    "4.Networking/systemd.md",
-    "4.Networking/traceroute & tracert.md",
-    "4.Networking/web drum.md",
-    "4.Networking/netsh.md",
     "4.Networking/extra",
     "attachments/Pasted image 20251019221452.png",
     "4.Networking/Tools",
