@@ -71,5 +71,18 @@ is this the case. the same network like nam wan? the same router? who gives this
 
 
 1. how does the router know where to send my package? im on my laptop and i type youtube. my ip address goes to the router. u said the router knows where to send it only based on the network part of the address. but that doesnt make sense. how does it know if my request is asking for something from the lan. and it doesnt need to exit the lan. or maybe im asking for a video from canada.
-2. 
-3. 
+
+2. 1. Your laptop sends a **DNS query** to your **router**: “What’s the IP address of youtube.com?”
+    
+. Your router forwards that to your **ISP’s DNS server** (or Google DNS, like 8.8.8.8).
+     The DNS server replies:
+    
+    `youtube.com → 142.250.72.238`
+    Now your laptop knows the destination IP address.
+    
+
+Now your computer builds a packet addressed to `142.250.72.238`. so ur saying that my laptop sends a dns request? to the router? it hought it first sends it to the router to receive a public ip request? what are exactly the steps from me asking for youtube? explain in details the steps
+
+
+
+3. - Your **laptop already has a private IP**, gateway, and DNS server via **DHCP** from your home router (this happens when you join Wi-Fi, not every time you visit a site). . what is dhcp? what does it do? what is the gateway? wdym by 'i have a gateway?' where do i have it? what is it? 
