@@ -14,6 +14,7 @@ you see all of them when u run ip addr show
 
 virtual interface:
 loopback
+docker / virtual machine
 vpn
 
 
@@ -39,4 +40,7 @@ Each interface can have:
 
 
 
-phisi
+loopback:
+When a program wants to communicate with another program on the _same machine_, it often uses the loopback interface.
+System daemons use it to communicate internally — for example, DNS resolvers, database services, or inter-process communication via TCP.
+

@@ -87,3 +87,7 @@ _→ MAC Addresses, ARP (Address Resolution Protocol), Network Interface Cards (
 ----
 questions
 1. so i wanna understand network interfaces. they are the connection between your pc and the network. but there is also network interfaces that are the connection to your pc tp ypur pc? what are the types? what is the difference? they can use different protocols right? so nat is a network interface? also i wanna understand what everything in the netstat command. like what do they mean? are they only the connectins that are toward smth else? are they the incoming requests?
+2. who uses the loopback? who sends and why and how? and how does it work
+3. what is whireshark and what packets it captures
+4. ok i know nat translates addresses but where does it sit? do we connect to it how and when? it is a gateway? is it on out pc? is on the router?
+5. 
