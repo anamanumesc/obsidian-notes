@@ -7,3 +7,5 @@ endava vpn doesnt change your public ip
 traffic that goes to github/confluence
 
 u can have a split tunnels if u use one or multiple vpn
+
+vpn can be used to access netflix on anouter country

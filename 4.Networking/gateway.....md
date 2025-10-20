@@ -1,0 +1,6 @@
+- it has an ip address
+- basically when u wanna reach smth outside of the LAN, you first reach the gateway. 
+- in my house the gateway is the router
+- a "a door between networks"
+- a firewall or load balancer can take the role of a gateway
+- ip adress next-hop address the packets are sent to
