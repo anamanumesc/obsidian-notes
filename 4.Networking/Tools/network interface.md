@@ -17,9 +17,10 @@ loopback
 vpn
 
 
-physical interface:
-wifi card
-ethernet
+physical interface (NIC - Nwtwork interface card):
+wifi adapter
+ethernet card
+
 
 
 
@@ -35,3 +36,7 @@ Each interface can have:
 - A **DNS configuration**
     
 - A **MAC address**
+
+
+
+phisi

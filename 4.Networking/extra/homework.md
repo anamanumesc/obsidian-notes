@@ -79,3 +79,11 @@ Tasks about identifying local network and system information.
 2. **(8)** Identify MAC address of your device.
 
 _→ MAC Addresses, ARP (Address Resolution Protocol), Network Interface Cards (NICs), DNS Servers, DHCP, IP Configuration Tools (`ipconfig`, `ifconfig`), OSI Model Layer 2 vs Layer 3 differences._
+
+
+
+
+
+----
+questions
+1. so i wanna understand network interfaces. they are the connection between your pc and the network. but there is also network interfaces that are the connection to your pc tp ypur pc? what are the types? what is the difference? they can use different protocols right? so nat is a network interface? also i wanna understand what everything in the netstat command. like what do they mean? are they only the connectins that are toward smth else? are they the incoming requests?

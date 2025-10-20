@@ -13,114 +13,15 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "4.Networking/5. network layer/DHCP.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "DHCP"
-            }
-          },
-          {
-            "id": "ddac1cd185b91711",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
                 "file": "4.Networking/Tools/network interface.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
               "title": "network interface"
-            }
-          },
-          {
-            "id": "a4a2a85ce08aa740",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "4.Networking/protocols/firewall.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "firewall"
-            }
-          },
-          {
-            "id": "af822c6753fa983c",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "4.Networking/1. application layer/https.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "https"
-            }
-          },
-          {
-            "id": "7c0ab4a7d2843ff3",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "4.Networking/Tools/network interface.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "network interface"
-            }
-          },
-          {
-            "id": "4a14c608ecc6369d",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "4.Networking/gateway.....md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "gateway...."
-            }
-          },
-          {
-            "id": "e045806d44464e3b",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "4.Networking/RDP - remote desktop control.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "RDP - remote desktop control"
-            }
-          },
-          {
-            "id": "7a50fd0c35b003d3",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "4.Networking/ip forwarding.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "ip forwarding"
             }
           }
-        ],
-        "currentTab": 5
+        ]
       }
     ],
     "direction": "vertical"
@@ -152,7 +53,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "wiresh",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -270,48 +171,48 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "4a14c608ecc6369d",
+  "active": "21e13f6bcd35fa78",
   "lastOpenFiles": [
-    "4.Networking/4. transport layer/VPN.md",
-    "4.Networking/gateway.....md",
-    "4.Networking/Untitled.md",
-    "4.Networking/protocols/firewall.md",
-    "4.Networking/5. network layer/DHCP.md",
-    "4.Networking/how containers network.md",
-    "4.Networking/homework.md",
+    "4.Networking/extra/homework.md",
     "4.Networking/Tools/network interface.md",
-    "4.Networking/RDP - remote desktop control.md",
+    "4.Networking/Tools/wireshark.md",
+    "4.Networking/dns.md",
+    "4.Networking/gateway.....md",
+    "4.Networking/hostname....md",
+    "4.Networking/how containers network.md",
     "4.Networking/ip forwarding.md",
-    "attachments/Pasted image 20251019221452.png",
-    "4.Networking/systemd.md",
-    "4.Networking/ssl & tsl certificates.md",
-    "4.Networking/routers.md",
     "4.Networking/procese.md",
+    "4.Networking/proxy vs reverse proxy vs load balancer.md",
+    "4.Networking/routers.md",
+    "4.Networking/ssl & tsl certificates.md",
+    "4.Networking/systemd.md",
+    "4.Networking/traceroute & tracert.md",
+    "4.Networking/web drum.md",
+    "4.Networking/netsh.md",
+    "4.Networking/extra",
+    "4.Networking/extra.md",
+    "4.Networking/ping.md",
+    "4.Networking/5. network layer/subnet masks.md",
+    "4.Networking/5. network layer/DHCP.md",
+    "4.Networking/4. transport layer/VPN.md",
+    "4.Networking/protocols/firewall.md",
+    "4.Networking/RDP - remote desktop control.md",
+    "attachments/Pasted image 20251019221452.png",
     "4.Networking/1. application layer/https.md",
     "4.Networking/Tools",
     "4.Networking/3. session layer",
     "4.Networking/6. data link layer/switches.md",
-    "4.Networking/web drum.md",
     "3.Linux/driver.md",
-    "3.Linux/cmd filesystem and navigation.md",
-    "4.Networking/phisical layer",
+    "4.Networking/7. phisical layer",
     "4.Networking/6. data link layer",
     "4.Networking/5. network layer",
     "4.Networking/4. transport layer",
-    "4.Networking/3. transport layer.md",
     "4.Networking/2. presentation layer",
     "4.Networking/1. application layer",
-    "4.Networking/5. network layer/exposing.md",
-    "4.Networking/netsh.md",
-    "4.Networking/notes w2.md",
-    "4.Networking/4. transport layer/port.md",
-    "4.Networking/proxy vs reverse proxy vs load balancer.md",
-    "4.Networking/4. transport layer/sockets.md",
     "4.Networking/protocols",
     "attachments/Pasted image 20251018224914.png",
     "zzzzz images/Pasted image 20251013151451.png",
     "attachments/Pasted image 20251018223529.png",
-    "zzzzz images/Untitled.base",
     "attachments/Pasted image 20251013153930.png",
     "attachments/Pasted image 20251013151612.png"
   ]
