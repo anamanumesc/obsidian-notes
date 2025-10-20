@@ -86,3 +86,6 @@ Now your computer builds a packet addressed to `142.250.72.238`. so ur saying th
 
 
 3. - Your **laptop already has a private IP**, gateway, and DNS server via **DHCP** from your home router (this happens when you join Wi-Fi, not every time you visit a site). . what is dhcp? what does it do? what is the gateway? wdym by 'i have a gateway?' where do i have it? what is it? 
+
+
+you have 2 ip adresses : one for broadcast and one for gateway
