@@ -83,12 +83,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "4.Networking/5. network layer/DHCP.md",
+                "file": "4.Networking/4. transport layer/VPN.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "DHCP"
+              "title": "VPN"
             }
           },
           {
@@ -272,6 +272,9 @@
   },
   "active": "4a14c608ecc6369d",
   "lastOpenFiles": [
+    "4.Networking/Untitled.md",
+    "4.Networking/protocols/firewall.md",
+    "4.Networking/5. network layer/DHCP.md",
     "4.Networking/how containers network.md",
     "4.Networking/homework.md",
     "4.Networking/Tools/network interface.md",
@@ -283,14 +286,12 @@
     "4.Networking/routers.md",
     "4.Networking/procese.md",
     "4.Networking/1. application layer/https.md",
-    "4.Networking/protocols/firewall.md",
     "4.Networking/Tools",
     "4.Networking/3. session layer",
     "4.Networking/6. data link layer/switches.md",
     "4.Networking/web drum.md",
     "3.Linux/driver.md",
     "3.Linux/cmd filesystem and navigation.md",
-    "4.Networking/5. network layer/DHCP.md",
     "4.Networking/phisical layer",
     "4.Networking/6. data link layer",
     "4.Networking/5. network layer",
@@ -306,7 +307,6 @@
     "4.Networking/4. transport layer/sockets.md",
     "4.Networking/hostname....md",
     "4.Networking/Tools/wireshark.md",
-    "4.Networking/4. transport layer/VPN.md",
     "4.Networking/protocols",
     "attachments/Pasted image 20251018224914.png",
     "zzzzz images/Pasted image 20251013151451.png",

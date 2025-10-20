@@ -11,3 +11,8 @@ in order to "expose" you need to allow in the firewall
 
 
 **UFW** = _Uncomplicated Firewall_, o interfață simplă peste firewall-ul kernelului
+
+
+---
+ip tables - example of forewall
+ufw pe ubuntu
