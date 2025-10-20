@@ -1,1 +1,0 @@
-sends a icmp echo request

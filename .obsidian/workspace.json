@@ -41,12 +41,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "4.Networking/Tools/network interface.md",
+                "file": "4.Networking/4. transport layer/udp & tcp & sctp.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "network interface"
+              "title": "udp & tcp & sctp"
             }
           }
         ],
@@ -82,7 +82,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "loopb",
+                "query": "arp",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -103,8 +103,7 @@
               "title": "Bookmarks"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
@@ -203,10 +202,22 @@
   },
   "active": "66dcdebb5aa0db66",
   "lastOpenFiles": [
+    "4.Networking/1. application layer/www https.md",
+    "4.Networking/4. transport layer/udp & tcp & sctp.md",
+    "4.Networking/1. application layer/P2P.md",
+    "4.Networking/1. application layer/Untitled",
+    "4.Networking/5. network layer/OSPF.md",
+    "4.Networking/5. network layer/IP.md",
+    "4.Networking/5. network layer/IGMP.md",
+    "4.Networking/5. network layer/ICMP.md",
+    "4.Networking/5. network layer/IPsec.md",
+    "4.Networking/5. network layer/ping.md",
+    "4.Networking/5. network layer/ARP.md",
     "4.Networking/extra/homework.md",
+    "4.Networking/4. transport layer/ssl & tls certificates.md",
     "4.Networking/Tools/network interface.md",
     "4.Networking/Tools/wireshark.md",
-    "4.Networking/dns.md",
+    "4.Networking/1. application layer/dns.md",
     "4.Networking/gateway.....md",
     "4.Networking/hostname....md",
     "4.Networking/how containers network.md",
@@ -214,32 +225,20 @@
     "4.Networking/procese.md",
     "4.Networking/proxy vs reverse proxy vs load balancer.md",
     "4.Networking/routers.md",
-    "4.Networking/ssl & tsl certificates.md",
     "4.Networking/systemd.md",
     "4.Networking/traceroute & tracert.md",
     "4.Networking/web drum.md",
     "4.Networking/netsh.md",
     "4.Networking/extra",
-    "4.Networking/extra.md",
-    "4.Networking/ping.md",
-    "4.Networking/5. network layer/subnet masks.md",
-    "4.Networking/5. network layer/DHCP.md",
-    "4.Networking/4. transport layer/VPN.md",
-    "4.Networking/protocols/firewall.md",
-    "4.Networking/RDP - remote desktop control.md",
     "attachments/Pasted image 20251019221452.png",
-    "4.Networking/1. application layer/https.md",
     "4.Networking/Tools",
     "4.Networking/3. session layer",
-    "4.Networking/6. data link layer/switches.md",
-    "3.Linux/driver.md",
     "4.Networking/7. phisical layer",
     "4.Networking/6. data link layer",
     "4.Networking/5. network layer",
     "4.Networking/4. transport layer",
     "4.Networking/2. presentation layer",
     "4.Networking/1. application layer",
-    "4.Networking/protocols",
     "attachments/Pasted image 20251018224914.png",
     "zzzzz images/Pasted image 20251013151451.png",
     "attachments/Pasted image 20251018223529.png",
