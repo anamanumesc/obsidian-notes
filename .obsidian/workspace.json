@@ -50,7 +50,7 @@
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -103,8 +103,7 @@
               "title": "Bookmarks"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
@@ -201,10 +200,11 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "211841f13cdc2bd1",
+  "active": "11d9fbb65ba47a69",
   "lastOpenFiles": [
-    "4.Networking/6. data link layer/switches.md",
+    "4.Networking/Tools/network interface.md",
     "4.Networking/6. data link layer/mac & llc.md",
+    "4.Networking/6. data link layer/switches.md",
     "4.Networking/extra/homework.md",
     "4.Networking/5. network layer/IP.md",
     "4.Networking/5. network layer/IPsec.md",
@@ -226,7 +226,6 @@
     "4.Networking/1. application layer/Untitled",
     "4.Networking/5. network layer/ping.md",
     "4.Networking/4. transport layer/ssl & tls certificates.md",
-    "4.Networking/Tools/network interface.md",
     "4.Networking/Tools/wireshark.md",
     "4.Networking/1. application layer/dns.md",
     "4.Networking/gateway.....md",
