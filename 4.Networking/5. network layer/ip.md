@@ -35,42 +35,6 @@ a specific range
 Your **ISP** assigns it to your router.
 
 
-----
-
-# router 
-Routers sit _between_ networks.  
-That means they have **at least two IP addresses**:
-
-1. **Private-side (LAN)** → example `192.168.1.1`
-
-    - This connects to your local home network 
-    - It shares the first three octets (`192.168.1`) with your devices.
-    - Your phone/laptop use it as the **gateway**
-    
-2. **Public-side (WAN)** → example `81.23.45.6`
-
-    - This connects to your ISP and the Internet. 
-    - It’s completely different from the private network.
-
-
-
-When you go online, your router uses **NAT (Network Address Translation)** to make all your devices appear as **one public IP**.
-
-
-
-## 🧭 2. Routerul are **două adrese IP**
-
-Exact cum ai zis 💡 — routerul este „punctul de legătură” între **rețeaua ta privată (LAN)** și **Internetul public (WAN)**.
-
-|Interfață|Exemplu IP|Rol|
-|---|---|---|
-|**Privată (LAN)**|192.168.0.1|Folosită pentru a comunica cu dispozitivele tale locale (PC, telefon, TV)|
-|**Publică (WAN)**|82.137.44.5|Folosită pentru a comunica cu Internetul (vizibilă de servere externe)|
-
-
-
-
-
 
 ---
 
