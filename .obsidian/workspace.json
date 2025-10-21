@@ -41,12 +41,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "4.Networking/000. todo.md",
+                "file": "4.Networking/6. data link layer/VLAN.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "000. todo"
+              "title": "VLAN"
             }
           },
           {
@@ -110,7 +110,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "nat ",
+                "query": "VLAN",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -131,7 +131,8 @@
               "title": "Bookmarks"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -230,8 +231,8 @@
   },
   "active": "da1536b155a3f707",
   "lastOpenFiles": [
-    "1.Introduction to DevOps/notes-networking.md",
     "4.Networking/000. todo.md",
+    "1.Introduction to DevOps/notes-networking.md",
     "4.Networking/6. data link layer/VLAN.md",
     "zzzzz images/vlan.md",
     "4.Networking/gateway.md",
