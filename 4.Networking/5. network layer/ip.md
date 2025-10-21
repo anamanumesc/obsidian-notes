@@ -58,6 +58,17 @@ When you go online, your router uses **NAT (Network Address Translation)** to ma
 
 
 
+## 🧭 2. Routerul are **două adrese IP**
+
+Exact cum ai zis 💡 — routerul este „punctul de legătură” între **rețeaua ta privată (LAN)** și **Internetul public (WAN)**.
+
+|Interfață|Exemplu IP|Rol|
+|---|---|---|
+|**Privată (LAN)**|192.168.0.1|Folosită pentru a comunica cu dispozitivele tale locale (PC, telefon, TV)|
+|**Publică (WAN)**|82.137.44.5|Folosită pentru a comunica cu Internetul (vizibilă de servere externe)|
+
+
+
 
 
 

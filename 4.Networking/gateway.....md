@@ -17,3 +17,24 @@
 
 “This destination is reachable **directly**, without needing a gateway.”
 **On-link route** → destination is in the same subnet as one of your interfaces.
+
+
+
+
+## 🧭 2. Routerul are **două adrese IP**
+
+Exact cum ai zis 💡 — routerul este „punctul de legătură” între **rețeaua ta privată (LAN)** și **Internetul public (WAN)**.
+
+| Interfață         | Exemplu IP  | Rol                                                                       |
+| ----------------- | ----------- | ------------------------------------------------------------------------- |
+| **Privată (LAN)** | 192.168.0.1 | Folosită pentru a comunica cu dispozitivele tale locale (PC, telefon, TV) |
+| **Publică (WAN)** | 82.137.44.5 | Folosită pentru a comunica cu Internetul (vizibilă de servere externe)    |
+
+➡️ **Laptopul folosește adresa privată a routerului (192.168.0.1) ca gateway.**  
+Când vrei să accesezi Internetul, routerul:
+
+1. primește pachetele de la tine,
+    
+2. le rescrie (NAT) cu **adresa publică**,
+    
+3. le trimite către Internet.

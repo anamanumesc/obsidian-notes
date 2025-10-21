@@ -20,3 +20,6 @@ locuieste in "router" - routerul are un server dhcp\
     - adresa gateway-ului (`192.168.10.1`)
         
     - adresa serverului DNS (poate fi routerul însuși sau 8.8.8.8)
+
+
+---
