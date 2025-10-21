@@ -1,4 +1,4 @@
-MAC + IP ADRESSES
+connects MAC + IP ADRESSES
 mac - network card identifier
 
 

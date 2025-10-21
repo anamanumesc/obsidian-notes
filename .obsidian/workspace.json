@@ -27,12 +27,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "4.Networking/extra/homework.md",
+                "file": "4.Networking/5. network layer/DHCP.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "homework"
+              "title": "DHCP"
             }
           },
           {
@@ -82,7 +82,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "smtp",
+                "query": "internet pro",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -103,7 +103,8 @@
               "title": "Bookmarks"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -202,10 +203,11 @@
   },
   "active": "11d9fbb65ba47a69",
   "lastOpenFiles": [
+    "4.Networking/extra/homework.md",
+    "4.Networking/5. network layer/ARP.md",
     "4.Networking/Tools/network interface.md",
     "4.Networking/6. data link layer/mac & llc.md",
     "4.Networking/6. data link layer/switches.md",
-    "4.Networking/extra/homework.md",
     "4.Networking/5. network layer/IP.md",
     "4.Networking/5. network layer/IPsec.md",
     "4.Networking/5. network layer/DHCP.md",
@@ -214,7 +216,6 @@
     "4.Networking/4. transport layer/4. transport layer.md",
     "4.Networking/5. network layer/OSPF.md",
     "4.Networking/5. network layer/ICMP.md",
-    "4.Networking/5. network layer/ARP.md",
     "4.Networking/2. presentation layer/avi.md",
     "4.Networking/2. presentation layer/sockets.md",
     "4.Networking/1. application layer/telnet.md",

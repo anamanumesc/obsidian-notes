@@ -70,7 +70,7 @@ Tasks dealing with traffic capture, tracing, and connectivity verification.
 
 ---
 
-## 💻 **System Information & Identification**
+## **System Information & Identification**
 
 Tasks about identifying local network and system information.
 
