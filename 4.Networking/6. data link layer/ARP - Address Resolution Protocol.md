@@ -1,3 +1,14 @@
+
+
+ip neigh show
+
+
+
+toate dispozitivele au ARP: laptop, imprimanta, router
+- ARP te ajută **să afli adresa MAC a unui IP pe care deja îl știi.**
+
+
+
 connects MAC + IP ADRESSES
 mac - network card identifier
 
@@ -27,3 +38,5 @@ Când laptopul vrea să trimită ceva la o adresă IP din rețeaua sa locală (e
     
 
 💡 Totul se întâmplă **fără router** — doar la nivelul rețelei locale (Layer 2 – Ethernet).
+
+

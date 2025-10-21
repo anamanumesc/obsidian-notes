@@ -1,7 +1,7 @@
 
-|                                                                                                         |
-| ------------------------------------------------------------------------------------------------------- |
-| A **device or IP address** on that network that knows how to forward packets _beyond_ the local subnet. |
+„Gateway-ul este **dispozitivul (routerul)** care știe cum să trimită traficul în afara rețelei tale,  
+dar în setările tale de rețea, **gateway-ul este adresa IP a acelui router** în rețeaua ta locală.”
+
 
 
 - it has an ip address
