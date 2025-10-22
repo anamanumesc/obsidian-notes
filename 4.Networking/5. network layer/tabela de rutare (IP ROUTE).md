@@ -1,5 +1,32 @@
 
 
+
+## 🚪 4️⃣ Cum colaborează aceste componente
+
+Când trimiți ceva pe Internet:
+
+1. Laptopul trimite pachetul pe **interfața activă** (`wlan0`) către gateway (192.168.1.1).
+    
+2. Adaptorul Wi-Fi îl transformă în semnal radio.
+    
+3. Routerul primește pachetul pe interfața sa de **LAN**.
+    
+4. Routerul aplică:
+    
+    - **NAT** – schimbă adresa ta privată cu adresa publică;
+        
+    - **Firewall rules** – decide dacă are voie să iasă.
+        
+5. Routerul trimite pachetul mai departe în Internet prin **interfața sa WAN**.
+    
+
+Când răspunsul vine înapoi, routerul verifică tabelul NAT și îl redirecționează către IP-ul tău local (`192.168.1.105`).
+
+
+
+---
+
+
 ok deci eu vr sa fac o cerere. undeva. sa trimit cuiva. si in functie de unde fac cererea aia, mi se da un alt ip. in functie de pe ce interfata ma duc. iar eu in functei de ce tip de cerere fac, catre cine. se ia doua tablea de rutare sa ma duca la interfata corecta, si ca sa faca cererea de pe ip ul interfetei
 
 
