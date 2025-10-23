@@ -1,5 +1,5 @@
 
-
+![[Pasted image 20251023163733.png]]
 
 ## 🚪 4️⃣ Cum colaborează aceste componente
 
