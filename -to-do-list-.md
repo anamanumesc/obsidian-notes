@@ -25,3 +25,10 @@
 18. Poți porni orice proces ca daemon folosind `&` sau `systemd`. ok dar ce avantaje au aceste procese ce scop au si cum functioneaza
 
 
+
+
+----
+
+
+
+
