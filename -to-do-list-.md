@@ -35,3 +35,7 @@ FRESH
 
 
 
+Set-NetIPInterface -InterfaceAlias "Ethernet 2" -Dhcp Disabled
+
+
+
