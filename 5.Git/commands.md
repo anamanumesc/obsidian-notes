@@ -27,11 +27,7 @@
 |descarcă fără a fuziona|`git fetch`|doar aduce, nu schimbă localul|
 |sincronizează complet|`git pull origin main --allow-unrelated-histories`|utile la repo-uri divergente|
 
----
-
 # Branching și Merging
-
-👉 scop: să lucrezi pe ramuri diferite fără să strici `main`.
 
 |Scop|Comandă|Explicație|
 |---|---|---|
@@ -46,9 +42,7 @@
 
 ---
 
-# 🔄 **Nivel 4 – Rebase, Reset, Restore (manipularea istoricului)**
-
-👉 scop: să “curăți” sau “alini” istoricul commit-urilor.
+# Rebase, Reset, Restore (manipularea istoricului)
 
 |Scop|Comandă|Explicație|
 |---|---|---|
