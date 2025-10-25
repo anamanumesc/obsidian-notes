@@ -20,7 +20,7 @@ U = unmerged
 
 | git switch         |                                                                           |
 | ------------------ | ------------------------------------------------------------------------- |
-| git checkout       | create new branches or change the branch                                  |
+| git checkout (-b)  | create new branches or change the branch                                  |
 | git merge          | combini doua ramuri diferite                                              |
 | git merge --squash |                                                                           |
 | git merge          |                                                                           |
@@ -38,3 +38,19 @@ U = unmerged
 | git log            | istoricul commiturilor                                                    |
 
 ![[Pasted image 20251025143449.png]]
+
+
+1. merge squash
+2. rebase
+3. rebase and fast forward merge 
+4. cherry pick
+
+
+
+---
+branches 
+
+develop
+feature
+resealses
+hotfix
