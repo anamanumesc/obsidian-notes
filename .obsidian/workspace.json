@@ -55,12 +55,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "4.Networking/000. todo.md",
+                "file": "5.Git/commands.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "000. todo"
+              "title": "commands"
             }
           },
           {
@@ -106,7 +106,7 @@
             }
           }
         ],
-        "currentTab": 5
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -256,10 +256,12 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "877b835c021200ac",
+  "active": "7ee189401a952fbb",
   "lastOpenFiles": [
-    "5.Git/commands.md",
     "5.Git/questions.md",
+    "4.Networking/000. todo.md",
+    "4.Networking/extra/homework.md",
+    "5.Git/commands.md",
     "5.Git/terms.md",
     "attachments/Pasted image 20251025143449.png",
     "-to-do-list-.md",
@@ -267,8 +269,6 @@
     "5.Git",
     "4.Networking/5. network layer/tabela de rutare (IP ROUTE).md",
     "attachments/Pasted image 20251023163733.png",
-    "4.Networking/000. todo.md",
-    "4.Networking/extra/homework.md",
     "4.Networking/6. data link layer/VLAN.md",
     "1.Introduction to DevOps/notes-networking.md",
     "zzzzz images/vlan.md",
