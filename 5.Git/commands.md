@@ -1,6 +1,4 @@
-# 🧱 **Nivel 1 – Fundamentale (bazele Git-ului)**
-
-👉 scop: să știi să lucrezi local, să creezi repo-uri și să faci commit-uri.
+# Fundamentale
 
 |Scop|Comandă|Explicație scurtă|
 |---|---|---|
@@ -17,9 +15,7 @@
 
 ---
 
-# 🌐 **Nivel 2 – Lucrul cu remote (GitLab)**
-
-👉 scop: să conectezi repo-ul local la GitLab și să trimiți/primi modificări.
+#  Lucrul cu remote (GitLab)
 
 |Scop|Comandă|Explicație|
 |---|---|---|
@@ -33,7 +29,7 @@
 
 ---
 
-# 🌿 **Nivel 3 – Branching și Merging**
+# Branching și Merging
 
 👉 scop: să lucrezi pe ramuri diferite fără să strici `main`.
 
