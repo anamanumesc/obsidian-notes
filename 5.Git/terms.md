@@ -7,8 +7,16 @@ branch = different timeline of code
 merge = combine one branch with another 
 topic branch = 
 
-working directory =
-staging area = 
+working directory = fisiere actuale din folderul meu 
+staging area = zona unde sunt modificarile pr commit 
+|Tracked – unmodified
+tracked unmodified
+
+A=ADDED\
+M (MODIFIED) ROSU = WORKING
+M VERDE =STAGED
+U = unmerged
+
 
 | git switch         |                                                                           |
 | ------------------ | ------------------------------------------------------------------------- |
@@ -27,5 +35,6 @@ staging area =
 | M                  |                                                                           |
 | git diff           | Arată diferențele dintre fișierele din working directory și staging area. |
 | git diff -- staged | Arată diferențele dintre staging area și ultimul commit.                  |
+| git log            | istoricul commiturilor                                                    |
 
 ![[Pasted image 20251025143449.png]]
