@@ -7,18 +7,25 @@ branch = different timeline of code
 merge = combine one branch with another 
 topic branch = 
 
+working directory =
+staging area = 
 
-| git switch         |                                          |
-| ------------------ | ---------------------------------------- |
-| git checkout       | create new branches or change the branch |
-| git merge          | combini doua ramuri diferite             |
-| git rebase         |                                          |
-| git log            |                                          |
-| fast forward merge |                                          |
-| git status         |                                          |
-| gitkeep, empty dir |                                          |
-| git stash          |                                          |
-| git reset          |                                          |
-| git squash         |                                          |
+| git switch         |                                                                           |
+| ------------------ | ------------------------------------------------------------------------- |
+| git checkout       | create new branches or change the branch                                  |
+| git merge          | combini doua ramuri diferite                                              |
+| git merge --squash |                                                                           |
+| git merge          |                                                                           |
+| git rebase         |                                                                           |
+| git status         | outputs the brach im on and the commits i have                            |
+| gitkeep, empty dir |                                                                           |
+| git stash          |                                                                           |
+| git reset          |                                                                           |
+| git squash         |                                                                           |
+| git add            | adauga fisierele in stating area, gata de commit                          |
+| A                  |                                                                           |
+| M                  |                                                                           |
+| git diff           | Arată diferențele dintre fișierele din working directory și staging area. |
+| git diff -- staged | Arată diferențele dintre staging area și ultimul commit.                  |
 
 ![[Pasted image 20251025143449.png]]
