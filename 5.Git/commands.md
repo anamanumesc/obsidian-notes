@@ -105,3 +105,26 @@
 | vezi remote branch-urile                | `git ls-remote --heads origin`  | listează ramurile disponibile pe remote    |
 | arată conținutul unui fișier din remote | `git show origin/main:<fisier>` | utile pentru verificarea stării remote     |
 | afișează locația repo-ului              | `git rev-parse --show-toplevel` | arată calea absolută a rădăcinii repo-ului |
+
+
+
+
+
+
+----
+
+
+
+| #   | 🔹 Scop / Pas                                                 | 🐧 **Ubuntu (Terminal / Bash)**                                                                                   | 🪟 **Windows PowerShell (Admin)**                                                                                                                               |
+| --- | ------------------------------------------------------------- | ----------------------------------------------------------------------------------------------------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| 1   | 🔍 Vezi interfețele și IP-urile actuale                       | `ip a`                                                                                                            | `Get-NetIPConfiguration`                                                                                                                                        |
+| 2   | 🔧 Identifică adaptorul Host-Only (ex: `enp0s8` / `MY-VMS`)   | `nmcli device status` sau `ip a`                                                                                  | `Get-NetAdapter`                                                                                                                                                |
+| 3   | ⚙️ Dezactivează DHCP și setează IP static                     | `bash\nsudo ip addr flush dev enp0s8\nsudo ip addr add 192.168.56.12/24 dev enp0s8\nsudo ip link set enp0s8 up\n` | `powershell\nSet-NetIPInterface -InterfaceAlias "MY-VMS" -Dhcp Disabled\nNew-NetIPAddress -InterfaceAlias "MY-VMS" -IPAddress 192.168.56.10 -PrefixLength 24\n` |
+| 4   | 🧱 Verifică IP-ul configurat                                  | `ip a show enp0s8`                                                                                                | `Get-NetIPAddress -InterfaceAlias "MY-VMS"`                                                                                                                     |
+| 5   | 🔎 Verifică regulile firewall-ului (dacă permite ICMP / ping) | `sudo ufw status verbose`                                                                                         | ```powershell\nGet-NetFirewallRule                                                                                                                              |
+| 6   | 🔥 Permite ping (ICMP) prin firewall                          | `sudo ufw allow proto icmp` _(sau)_ `sudo ufw disable`                                                            | `netsh advfirewall firewall set rule group="File and Printer Sharing" new enable=yes`                                                                           |
+| 7   | 🧾 Setează hostname permanent                                 | `sudo hostnamectl set-hostname vm-ubuntu-1`                                                                       | `Rename-Computer -NewName 'vm-windows-1' -Force`                                                                                                                |
+| 8   | 💾 Repornește pentru aplicarea hostname-ului                  | `sudo reboot`                                                                                                     | `Restart-Computer`                                                                                                                                              |
+| 9   | 🧩 Adaugă în fișierul _hosts_ pentru rezoluție locală         | ```bash\necho "192.168.56.10 vm-windows-1"                                                                        | sudo tee -a /etc/hosts\necho "192.168.56.12 vm-ubuntu-1"                                                                                                        |
+| 10  | 🔄 Golește cache DNS (după modificări hosts)                  | `sudo systemd-resolve --flush-caches`                                                                             | `ipconfig /flushdns`                                                                                                                                            |
+| 11  | 🧪 Testează conexiunea între VM-uri                           | `ping 192.168.56.10` sau `ping vm-windows-1`                                                                      | `Test-Connection vm-ubuntu-1 -Count 2`                                                                                                                          |
