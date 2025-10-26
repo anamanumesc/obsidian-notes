@@ -55,12 +55,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "5.Git/github Actions.md",
+                "file": "5.Git/terms.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "github Actions"
+              "title": "terms"
             }
           },
           {
@@ -258,13 +258,13 @@
   },
   "active": "7ee189401a952fbb",
   "lastOpenFiles": [
+    "5.Git/tags.md",
     "5.Git/semantic versioning.md",
+    "5.Git/questions.md",
     "5.Git/github Actions.md",
     "5.Git/workflows/github flow.md",
     "5.Git/workflows/gitflow.md",
     "5.Git/commands.md",
-    "5.Git/questions.md",
-    "5.Git/tags.md",
     "5.Git/workflows/Untitled.md",
     "5.Git/workflows",
     "attachments/Pasted image 20251026233137.png",
