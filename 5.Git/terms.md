@@ -5,13 +5,19 @@ chhecksum??? =?? e un hash de fisier cod identifier
 commit = a change
 heckout = change the pointer
 tag = human readable checksum
+log - cronological
+log --graph
+bisect = find bugs
 
 fetch = only dowload rmeote code
 pull = fetch + merge
 merge = local is the bbranch i merge from. remothe the otther branch
 log = history of what has happened
+reset = 
+stash = random holding area
+submobules
 
-I CANT PUSH = 
+I CANT PUSH =  smth different in origin
 
 origin = serverul unde se afla (github/gitlab)
 staging = adding changes to staging area where we do a final check before commiting them to local repo (GIT ADD)
