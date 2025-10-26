@@ -1,15 +1,17 @@
 
 
-identifier = code
-head = pointer
+head = pointer to where im rn
 chhecksum??? =?? e un hash de fisier cod identifier
 commit = a change
 heckout = change the pointer
 tag = human readable checksum
 
+fetch = only dowload rmeote code
+pull = fetch + merge
 merge = local is the bbranch i merge from. remothe the otther branch
+log = history of what has happened
 
-
+I CANT PUSH = 
 
 origin = serverul unde se afla (github/gitlab)
 staging = adding changes to staging area where we do a final check before commiting them to local repo (GIT ADD)
