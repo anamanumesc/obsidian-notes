@@ -121,7 +121,7 @@
 | 2   | 🔧 Identifică adaptorul Host-Only (ex: `enp0s8` / `Ethernet 2`) | `nmcli device status` sau `ip a`                                                                                  | `Get-NetAdapter`                                                                                                                                                        |
 | 3   | ⚙️ Dezactivează DHCP și setează IP static                       | `bash\nsudo ip addr flush dev enp0s8\nsudo ip addr add 192.168.56.12/24 dev enp0s8\nsudo ip link set enp0s8 up\n` | `powershell\nSet-NetIPInterface -InterfaceAlias "Ethernet 2" -Dhcp Disabled\nNew-NetIPAddress -InterfaceAlias "Ethernet 2" -IPAddress 192.168.56.10 -PrefixLength 24\n` |
 | 4   | 🧱 Verifică IP-ul configurat                                    | `ip a show enp0s8`                                                                                                | `Get-NetIPAddress -InterfaceAlias "Ethernet 2"`                                                                                                                         |
-| 5   | 🔎 Verifică regulile firewall-ului (dacă permite ICMP / ping)   | `sudo ufw status verbose`                                                                                         | ```powershell\nGet-NetFirewallRule                                                                                                                                      |
+| 5   | 🔎 Verifică regulile firewall-ului (dacă permite ICMP / ping)   | `sudo ufw status verbose`                                                                                         | ```powershell\nGet-NetFirewallRule```                                                                                                                                   |
 | 6   | 🔥 Permite ping (ICMP) prin firewall                            | `sudo ufw allow proto icmp` _(sau)_ `sudo ufw disable`                                                            | `netsh advfirewall firewall set rule group="File and Printer Sharing" new enable=yes`                                                                                   |
 | 7   | 🧾 Setează hostname permanent                                   | `sudo hostnamectl set-hostname vm-ubuntu-1`                                                                       | `Rename-Computer -NewName 'vm-windows-1' -Force`                                                                                                                        |
 | 8   | 💾 Repornește pentru aplicarea hostname-ului                    | `sudo reboot`                                                                                                     | `Restart-Computer`                                                                                                                                                      |
@@ -133,12 +133,12 @@
 
 
 ce am fcaut eu:
-1. am creeat adaptorul host only
+1. am creeat adaptorul host only ca sa fie totate in aceeasi retea interna locala
 2. am facuit reteaua privata
 
 ce s a intmplat dupa o perioada
 1. s au reasignat alte ip-uri de la dhcp
-2. reteaua s a schimbat automat de la privat la public iar
+2. reteaua s a schimbat automat de la privat la public. pt ca ip-urile s au schimbat reteaua nu era srtabila si windows a considerat ca e noua
 3. nu mai puteam sa dau ping
 
 
