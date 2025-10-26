@@ -145,3 +145,13 @@ ce s a intmplat dupa o perioada
 ce trebuia sa fac diferit:  
 1. trebuia sa setez ip-ul static, sa dezactivez dhcp
 2. sa fca regulile de firewall sa fie permanente
+
+
+
+
+
+![[Pasted image 20251026233137.png]]
+
+Salut Radu! Am rezolvat cu masina virtuala si merge mai repede de 3 cadre pe secunda acum:)) Multumesc pentru sfaturi si materiale!
+
+Am analizat de ce nu mi-a mers atunci ping-ul intre masini si era din cauza ca 

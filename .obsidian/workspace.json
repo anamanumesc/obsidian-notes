@@ -163,8 +163,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 353.5013427734375,
-    "collapsed": true
+    "width": 353.5013427734375
   },
   "right": {
     "id": "665f98919aa3d73c",
@@ -259,11 +258,15 @@
   },
   "active": "7ee189401a952fbb",
   "lastOpenFiles": [
+    "attachments/Pasted image 20251026233137.png",
     "5.Git/questions.md",
+    "5.Git/terms.md",
+    "chp3-homework/website.md",
+    "zzzzz images/Pasted image 20251013151451.png",
+    "zzzzz images/vlan.md",
+    "5.Git/commands.md",
     "4.Networking/000. todo.md",
     "4.Networking/extra/homework.md",
-    "5.Git/commands.md",
-    "5.Git/terms.md",
     "attachments/Pasted image 20251025143449.png",
     "-to-do-list-.md",
     "5.Git/Untitled",
@@ -272,7 +275,6 @@
     "attachments/Pasted image 20251023163733.png",
     "4.Networking/6. data link layer/VLAN.md",
     "1.Introduction to DevOps/notes-networking.md",
-    "zzzzz images/vlan.md",
     "4.Networking/gateway.md",
     "4.Networking/5. network layer/DHCP.md",
     "4.Networking/6. data link layer/ARP - Address Resolution Protocol.md",
@@ -287,8 +289,6 @@
     "4.Networking/5. network layer/IGMP.md",
     "4.Networking/4. transport layer/4. transport layer.md",
     "4.Networking/5. network layer/OSPF.md",
-    "4.Networking/5. network layer/ICMP.md",
-    "4.Networking/2. presentation layer/avi.md",
     "4.Networking/1. application layer/Untitled",
     "4.Networking/extra",
     "attachments/Pasted image 20251019221452.png",
@@ -299,7 +299,6 @@
     "4.Networking/5. network layer",
     "4.Networking/4. transport layer",
     "attachments/Pasted image 20251018224914.png",
-    "zzzzz images/Pasted image 20251013151451.png",
     "attachments/Pasted image 20251018223529.png",
     "attachments/Pasted image 20251013153930.png",
     "attachments/Pasted image 20251013151612.png"
