@@ -69,12 +69,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "5.Git/questions.md",
+                "file": "5.Git/merge strategies/ff.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "questions"
+              "title": "ff"
             }
           }
         ],
@@ -230,9 +230,11 @@
   },
   "active": "be10f729300cc015",
   "lastOpenFiles": [
+    "5.Git/merge strategies/no-ff.md",
+    "5.Git/merge strategies/ff.md",
+    "5.Git/questions.md",
     "5.Git/tags.md",
     "5.Git/remote/git push and pull.md",
-    "5.Git/questions.md",
     "5.Git/commands.md",
     "5.Git/remote/fork.md",
     "5.Git/remote/pointerul local.md",
@@ -245,7 +247,6 @@
     "5.Git/merge strategies/squash command.md",
     "5.Git/remote/upstream.md",
     "5.Git/remote",
-    "5.Git/merge strategies/no-ff.md",
     "5.Git/merge strategies/merge.md",
     "5.Git/strategii de deployment/Untitled.md",
     "5.Git/strategii de deployment/AB releases.md",
@@ -255,7 +256,6 @@
     "5.Git/comenzi",
     "5.Git/merge strategies/rebase.md",
     "5.Git/rewrite git hostory",
-    "5.Git/merge strategies/ff.md",
     "5.Git/merge strategies/cherry picking.md",
     "5.Git/flag or feature toggles.md",
     "5.Git/merge strategies/gitflow.md",
