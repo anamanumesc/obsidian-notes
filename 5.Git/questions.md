@@ -40,8 +40,7 @@
 
 
 6. Git objects
-7. Three main Git areas
-8. How Git works
-9. Hooks
-10. Commit and tag
-11. References
+7. How Git works = **Git hooks** are custom scripts that run automatically when specific Git events occur.
+8. Hooks
+9. Commit and tag
+10. References
