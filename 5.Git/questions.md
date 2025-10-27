@@ -33,3 +33,4 @@
 1. fit status vs git log 
 2. `origin/feature/x`, ce inseamna acek x? e unbranch din feature?
 3. explica toate optiunile cu push . gen ce e -u? ce alt tip de comenzi am? da mi exemple e face fiecare. si cu push si cu pull
+4. care sunt motive des intalnite pt care nu mi merge pull/push

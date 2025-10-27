@@ -8,6 +8,9 @@ tag = human readable checksum
 log - cronological
 log --graph
 bisect = find bugs
+git branch -m main ->redenumeste branch-ul curent in main
+
+
 
 fetch = only dowload rmeote code
 pull = fetch + merge
