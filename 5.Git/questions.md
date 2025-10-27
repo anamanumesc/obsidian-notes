@@ -44,3 +44,111 @@
 8. Hooks
 9. Commit and tag
 10. References
+
+
+
+
+```bash
+
+git clone <gitlab_repo_url>                           # copiaza repo-ul de pe gitlab intr-un nou director local
+
+cd <repo_name>                                        # intra in directorul proaspat clonat
+
+git checkout -b master                                # creeaza si comuta pe o noua ramura numita master (-b = create branch si checkout)
+
+mkdir -p folder1 folder2 folder3                      # creeaza directoarele; -p nu da eroare daca exista si creeaza parintii lipsa
+
+touch folder2/file2 folder3/file31 folder3/file32     # creeaza fisierele goale la caile date
+
+printf "folder2/file2\nfolder3/\n" >> .gitignore      # adauga regulile in .gitignore (>> = append la finalul fisierului)
+
+git add .gitignore                                    # pune .gitignore in staging (pregatit pentru commit)
+
+git commit -m "add gitignore"                         # creeaza un commit cu ce e in staging (-m seteaza mesajul commitului)
+
+git push -u origin master                             # impinge ramura master la remote origin (-u seteaza upstream/tracking pentru push/pull viitoare)
+
+touch folder1/.gitkeep                                # adauga un placeholder ca sa poata fi versionat folder1 gol
+
+git add folder1/.gitkeep                              # pune fisierul .gitkeep in staging
+
+git commit -m "keep empty folder1"                    # salveaza commitul care mentine folder1 in repo
+
+git push                                              # impinge commitul curent pe upstreamul setat
+
+git checkout -b topic master                          # creeaza si comuta pe ramura topic pornind din master
+
+touch file1.txt                                       # creeaza fisierul file1.txt
+
+git add file1.txt                                     # pune file1.txt in staging
+
+git commit -m "add file1"                             # salveaza commitul cu file1.txt
+
+git checkout master                                   # revine pe ramura master
+
+git merge topic                                       # uneste topic in master; daca master nu are commituri noi, e fast-forward (nu se creeaza merge commit)
+
+git log --oneline --graph --decorate --all            # afiseaza istoricul: --oneline scurt, --graph deseneaza graful, --decorate arata heads/tags, --all include toate ramurile
+
+touch file2.txt                                       # creeaza file2.txt pe master
+
+git add file2.txt                                     # pune file2.txt in staging
+
+git commit -m "add file2 on master"                   # salveaza commitul cu file2.txt pe master
+
+git checkout topic                                    # comuta pe topic
+
+echo "change" >> file1.txt                            # adauga text la finalul file1.txt (>> = append)
+
+git add file1.txt                                     # pune modificarile din file1.txt in staging
+
+git commit -m "update file1 on topic"                 # salveaza commitul de pe topic
+
+git checkout master                                   # revine pe master
+
+git merge --no-ff topic                               # merge care creeaza intotdeauna un merge commit (--no-ff = dezactiveaza fast-forward)
+
+git log --oneline --graph --decorate --all            # vezi graful cu merge commitul creat mai sus
+
+echo "master edit" >> file1.txt                       # modifica file1.txt pe master (va provoca conflict ulterior)
+
+git add file1.txt                                     # pune modificarile pe master in staging
+
+git commit -m "master edits file1"                    # commit pe master
+
+git checkout topic                                    # comuta pe topic
+
+echo "topic edit" >> file1.txt                        # modifica si pe topic acelasi fisier (pregateste conflictul)
+
+git add file1.txt                                     # stage pe topic
+
+git commit -m "topic edits file1"                     # commit pe topic
+
+git checkout master                                   # revine pe master
+
+git merge topic                                       # incearca unirea; apare conflict in file1.txt pentru ca ambele ramuri au modificat liniile
+
+git checkout --theirs file1.txt                       # rezolva conflictul alegand varianta "theirs" (ramura adusa prin merge, adica topic, in contextul curent)
+
+git add file1.txt                                     # marcheaza fisierul ca rezolvat si il pune in staging
+
+git commit -m "resolve conflict using topic version"  # finalizeaza merge-ul cu un commit de rezolvare
+
+git log --oneline --graph --decorate --all            # verifica istoricul cu merge si rezolvarea conflictului
+
+git push                                              # impinge istoricul actual al lui master pe remote
+
+git checkout topic                                    # comuta pe topic
+
+git rebase master                                     # reaseaza commiturile din topic peste varful lui master (istoric mai liniar)
+
+echo "more changes" >> file1.txt                      # inca o modificare pe topic
+
+git add file1.txt                                     # stage pe topic
+
+git commit -m "more changes on topic"                 # commit pe topic
+
+git push -u origin topic                              # impinge ramura topic pe remote (-u seteaza upstream pentru topic)
+
+
+```
