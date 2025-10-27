@@ -29,3 +29,5 @@
 
 
 - cand adaug gitingore. acesta mai lasa fisierele a fie salvate in staging area (index)?
+
+fit status vs git log 
