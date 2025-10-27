@@ -153,14 +153,13 @@ ce trebuia sa fac diferit:
 ![[Pasted image 20251026233137.png]]
 
 
-Salut Radu! Am rezolvat problema cu virtualbox si acum merge mult mai bine si afiseaza mai mult de 3 cadre pe secunda 😄. Multumesc pentru sfaturi si materialele trimise!
+salut Radu! Am rezolvat problema cu virtualbox si acum merge mult mai bine si afiseaza mai mult de 3 cadre pe secunda 😄. Multumesc pentru sfaturi si materialele trimise!
 
-Am analizat de ce nu functiona ping-ul intre masinile virtuale si am descoperit ca DHCP ul a reasignat automat alte adrese IP, iar Windows a identificat reteaua ca fiind una noua si a aplicat regulile implicite de firewall pentru retele publice, care sunt mai restrictive.
+am analizat de ce nu functiona ping-ul intre masinile virtuale si am descoperit ca dhcp ul a reasignat automat alte adrese ip, iar windows a identificat reteaua ca fiind una noua si a aplicat regulile implicite de firewall pentru retele publice, care sunt mai restrictive.
 
-Ca sa nu mai am aceeasi problema in viitor, o sa am grija sa:
-
-1.  setez adrese IP statice pentru adaptoarele host-only;
-2. dezactivez DHCP-ul pentru acea retea, ca sa evit reasignarea automata a IP-urilor;
+pasii pe care i-am facut au fost:
+1.  setez adrese IP statice pentru adaptoarele host-only
+2. dezactivez DHCP-ul pentru acea retea, ca sa evit reasignarea automata a IP-urilor
 3. (si/sau) sa fac regulile de firewall permanente, astfel incat comunicarea sa nu fie afectata daca windows schimba profilul retelei.
 
-Dupa ce am facut toti pasii, am testat si imi functioneaza chiar si dupa ce dau restart sau ma conectez la alta retea!
+am testat si imi functioneaza acum
