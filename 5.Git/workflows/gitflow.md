@@ -9,3 +9,7 @@ waterfall - u merge after multiple changes were made into release and then into 
 - `release/*` – pentru pregătirea unei versiuni.
     
 - `hotfix/*` – pentru corecturi rapide în producție
+
+
+
+![[Pasted image 20251027120924.png]]
