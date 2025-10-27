@@ -44,7 +44,7 @@ U = unmerged
 | git checkout (-b)  | create new branches or change the branch                                  |
 | git merge          | combini doua ramuri diferite                                              |
 | git merge --squash |                                                                           |
-| git merge          |                                                                           |
+|                    |                                                                           |
 | git rebase         |                                                                           |
 | git status         | outputs the brach im on and the commits i have                            |
 | gitkeep, empty dir |                                                                           |
