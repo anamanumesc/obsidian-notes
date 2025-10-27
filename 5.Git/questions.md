@@ -25,3 +25,7 @@
 - automatizează rollback, scaling și configurarea environment-urilor;
     
 - implementează GitOps, IaC (Infrastructure as Code), observabilitate și securitate în pipeline-uri.
+
+
+
+- cand adaug gitingore. acesta mai lasa fisierele a fie salvate in staging area (index)?
