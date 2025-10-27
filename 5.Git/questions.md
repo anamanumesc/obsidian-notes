@@ -13,6 +13,9 @@
 12. explain this: **DevOps:** gestionează **integrarea (merge în main/release)**, **build pipelines**, **deployment**, **monitorizare** și **rollback**.
 13. explain this DevOps este **liantul între development și operations** — automatizează tot ce ține de livrarea codului:
 
+
+14. CARE E DIFERENTA INTR EPULL SI MERGE?? e acelasi lucru dar alti termeni?
+
 - gestionează pipeline-urile CI/CD (build, test, deploy);
     
 - administrează infrastructura (on-prem, cloud, Kubernetes);
