@@ -30,4 +30,5 @@
 
 - cand adaug gitingore. acesta mai lasa fisierele a fie salvate in staging area (index)?
 
-fit status vs git log 
+1. fit status vs git log 
+2. `origin/feature/x`, ce inseamna acek x? e unbranch din feature?
