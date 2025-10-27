@@ -27,12 +27,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "5.Git/merge strategies/merge.md",
+                "file": "5.Git/terms.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "merge"
+              "title": "terms"
             }
           },
           {
@@ -49,7 +49,8 @@
               "title": "commands"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -199,10 +200,11 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "63f1ab68eec7e930",
+  "active": "f5247a8ed760f76a",
   "lastOpenFiles": [
-    "5.Git/comenzi/pull or merge request -PR MR.md",
     "5.Git/merge strategies/merge.md",
+    "5.Git/questions.md",
+    "5.Git/comenzi/pull or merge request -PR MR.md",
     "5.Git/strategii de deployment/Untitled.md",
     "5.Git/strategii de deployment/AB releases.md",
     "5.Git/workflows/github flow or feature branches.md",
@@ -217,7 +219,6 @@
     "5.Git/merge strategies/gitflow.md",
     "5.Git/merge strategies/github flow.md",
     "5.Git/workflows/gitlab flow.md",
-    "5.Git/questions.md",
     "5.Git/commands.md",
     "5.Git/terms.md",
     "5.Git/tags.md",
