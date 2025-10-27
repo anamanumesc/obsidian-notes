@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "5.Git/questions.md",
+                "file": "5.Git/remote/git push and pull.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "questions"
+              "title": "git push and pull"
             }
           },
           {
@@ -201,12 +201,15 @@
   },
   "active": "63f1ab68eec7e930",
   "lastOpenFiles": [
+    "5.Git/remote/upstream.md",
+    "5.Git/remote/git push and pull.md",
+    "5.Git/comenzi/pull or merge request -PR MR.md",
+    "5.Git/remote",
+    "5.Git/questions.md",
     "5.Git/merge strategies/squash command.md",
     "5.Git/merge strategies/no-ff.md",
     "5.Git/terms.md",
     "5.Git/merge strategies/merge.md",
-    "5.Git/questions.md",
-    "5.Git/comenzi/pull or merge request -PR MR.md",
     "5.Git/strategii de deployment/Untitled.md",
     "5.Git/strategii de deployment/AB releases.md",
     "5.Git/workflows/github flow or feature branches.md",
@@ -228,10 +231,8 @@
     "attachments/Pasted image 20251027120924.png",
     "5.Git/workflows/trunk based.md",
     "5.Git/strategii de deployment/Untitled 2.md",
-    "5.Git/strategii de deployment/Untitled 1.md",
     "5.Git/strategii de deployment",
     "attachments/Pasted image 20251027115125.png",
-    "4.Networking/6. data link layer/mac & llc.md",
     "5.Git/merge strategies",
     "5.Git/workflows",
     "attachments/Pasted image 20251026233137.png",
@@ -243,7 +244,6 @@
     "4.Networking/extra",
     "attachments/Pasted image 20251019221452.png",
     "4.Networking/Tools",
-    "4.Networking/3. session layer",
     "attachments/Pasted image 20251018224914.png",
     "attachments/Pasted image 20251018223529.png",
     "attachments/Pasted image 20251013153930.png"
