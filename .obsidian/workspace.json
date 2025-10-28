@@ -69,12 +69,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "5.Git/workflows/gitflow.md",
+                "file": "5.Git/merge strategies/merge.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "gitflow"
+              "title": "merge"
             }
           }
         ],
@@ -230,6 +230,8 @@
   },
   "active": "be10f729300cc015",
   "lastOpenFiles": [
+    "attachments/Pasted image 20251028235253.png",
+    "5.Git/workflows/gitflow.md",
     "5.Git/workflows/github flow or feature branches.md",
     "5.Git/merge strategies/ff.md",
     "5.Git/workflows/gitlab flow.md",
@@ -257,8 +259,6 @@
     "5.Git/comenzi",
     "5.Git/merge strategies/rebase.md",
     "5.Git/rewrite git hostory",
-    "5.Git/merge strategies/cherry picking.md",
-    "5.Git/flag or feature toggles.md",
     "attachments/Pasted image 20251027120924.png",
     "5.Git/strategii de deployment",
     "attachments/Pasted image 20251027115125.png",
