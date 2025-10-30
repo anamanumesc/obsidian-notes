@@ -4,5 +4,24 @@ Database = a single, logical collection of data within that cluster that has sch
 Individual object = a table view, a function, or index
 
 
-logical backup = a file
-phisical backup = 
+logical backup = a file, compatible with other os . inefficient in big databases
+physical backup = 
+
+
+
+# Logical backup (COPY command, pg_dump and pg_dumpall utilities)
+
+
+
+---
+# Physical backup
+
+# What is physical backup (copy of data + WAL files)
+
+U can only restore an entire cluster 
+
+
+Cold and hot backup 
+Replication protocol
+Standalone backups 
+Continuous archiving of WAL files
