@@ -6,6 +6,10 @@ Individual object = a table view, a function, or index
 
 logical backup = a file, compatible with other os . inefficient in big databases
 physical backup = 
+object = any database content > table, index, view, function
+cold backup = when postgresql is stopped. simple but causes downtime
+hot backup = whrn postgres is running - needs WAL archiving 
+
 
 
 
@@ -13,10 +17,16 @@ physical backup =
 
 
 
+
+
 ---
 # Physical backup
 
 # What is physical backup (copy of data + WAL files)
+
+pgdata = The main PostgreSQL data directory containing cluster data files.
+
+
 
 U can only restore an entire cluster 
 
