@@ -69,12 +69,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "5.Git/merge strategies/merge.md",
+                "file": "6.Databases/postgres backup.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "merge"
+              "title": "postgres backup"
             }
           }
         ],
@@ -230,6 +230,10 @@
   },
   "active": "be10f729300cc015",
   "lastOpenFiles": [
+    "6.Databases/terms.md",
+    "6.Databases/postgres backup.md",
+    "5.Git/merge strategies/merge.md",
+    "6.Databases",
     "attachments/Pasted image 20251028235253.png",
     "5.Git/workflows/gitflow.md",
     "5.Git/workflows/github flow or feature branches.md",
@@ -251,13 +255,11 @@
     "5.Git/merge strategies/squash command.md",
     "5.Git/remote/upstream.md",
     "5.Git/remote",
-    "5.Git/merge strategies/merge.md",
     "5.Git/strategii de deployment/Untitled.md",
     "5.Git/strategii de deployment/AB releases.md",
     "5.Git/comenzi/pull or merge request.md",
     "5.Git/Untitled.md",
     "5.Git/comenzi",
-    "5.Git/merge strategies/rebase.md",
     "5.Git/rewrite git hostory",
     "attachments/Pasted image 20251027120924.png",
     "5.Git/strategii de deployment",
@@ -272,9 +274,7 @@
     "4.Networking/1. application layer/Untitled",
     "4.Networking/extra",
     "attachments/Pasted image 20251019221452.png",
-    "4.Networking/Tools",
     "attachments/Pasted image 20251018224914.png",
-    "attachments/Pasted image 20251018223529.png",
-    "attachments/Pasted image 20251013153930.png"
+    "attachments/Pasted image 20251018223529.png"
   ]
 }
