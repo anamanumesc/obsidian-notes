@@ -2,14 +2,20 @@
 -----
 # Logical backup (COPY command, pg_dump and pg_dumpall utilities)
 
+- smaller. only one db or individual object
+- reads system cataloges
+- info from system catalogues
 ## pg_dump
 `pg_dump` connects to the database (just like a client).
+it takes the info from the metadata from that cluster
+and it writes a .sql document and if u run it it reates a new db
 if u add Fc option it gets compressed
 if u add Fp u can read it
 
 
 ---
 # Physical backup
+creates a snapshot of all the files the postrges uses , not only the metadata ig
 
 ## WAL
 
@@ -25,6 +31,8 @@ Defines how many **replication connections** can exist simultaneously.
 ## pg_basebackup
 
 `pg_basebackup` (the physical backup tool) connects as a **replication client**.
+- `pg_basebackup` runs as a privileged command that copies those files while the server is online.
+how do i use it?? when?? give me life scenarios. where do u take the data from? in pg dump and in pg_basebackup
 
 
 

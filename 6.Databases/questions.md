@@ -14,4 +14,5 @@
 11. how the pgdump ACTUALLY WORK? in details?
 12. i dint get this line and what its used for an fits ontext host    replication    replicator    192.168.1.10/32    scram-sha-256
 13. `psql` protocol
+14. - Extracts actual table data using internal `COPY` commands. -??? WHERE DOES IT GET THE TABLE DATA FROM??? it it only has the files from system catalogues
 
