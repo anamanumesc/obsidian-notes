@@ -69,12 +69,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "6.Databases/Untitled.md",
+                "file": "6.Databases/questions.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Untitled"
+              "title": "questions"
             }
           }
         ],
@@ -228,10 +228,10 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "a7083aa2c22a4689",
+  "active": "be10f729300cc015",
   "lastOpenFiles": [
     "6.Databases/postgres backup.md",
-    "6.Databases/Untitled.md",
+    "6.Databases/questions.md",
     "6.Databases/azure",
     "6.Databases/aws/non-data related",
     "6.Databases/aws/data related",
