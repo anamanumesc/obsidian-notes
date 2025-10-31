@@ -29,6 +29,16 @@ Data files = These are the actual files that store table contents.
 
 They are binary logs, not human-readable.
 
+- These are **PostgreSQL configuration parameters** (in `postgresql.conf`).
+wal_level = replica
+max_wal_senders = 5
+Tells PostgreSQL to write **enough detail in the WAL** to support replication and backups.
+Defines how many **replication connections** can exist simultaneously.
+
+
+## pg_basebackup
+
+`pg_basebackup` (the physical backup tool) connects as a **replication client**.
 
 
 
