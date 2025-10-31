@@ -69,12 +69,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "6.Databases/postgres backup.md",
+                "file": "6.Databases/Untitled.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "postgres backup"
+              "title": "Untitled"
             }
           }
         ],
@@ -230,12 +230,13 @@
   },
   "active": "a7083aa2c22a4689",
   "lastOpenFiles": [
+    "6.Databases/postgres backup.md",
+    "6.Databases/Untitled.md",
     "6.Databases/azure",
     "6.Databases/aws/non-data related",
     "6.Databases/aws/data related",
     "6.Databases/aws",
     "6.Databases/terms.md",
-    "6.Databases/postgres backup.md",
     "5.Git/merge strategies/merge.md",
     "6.Databases",
     "attachments/Pasted image 20251028235253.png",
@@ -268,7 +269,6 @@
     "5.Git/strategii de deployment",
     "attachments/Pasted image 20251027115125.png",
     "5.Git/merge strategies",
-    "5.Git/workflows",
     "attachments/Pasted image 20251026233137.png",
     "zzzzz images/Pasted image 20251013151451.png",
     "attachments/Pasted image 20251025143449.png",
