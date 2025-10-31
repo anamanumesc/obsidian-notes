@@ -6,5 +6,5 @@
 6. why do i need o allow replication connection on beta? qhat does that even mean/???
 7. whart does this mean??? wal_level = replica
 	max_wal_senders = 5
-8. ce e asta??
+
 
