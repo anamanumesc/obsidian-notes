@@ -8,13 +8,10 @@
 	max_wal_senders = 5
 8.  
 
-|                                                                         |
-| ----------------------------------------------------------------------- |
-| Write-Ahead Log (WAL) files — all recent changes before they hit tables |
-
 
 9. cum adica before they hit tableS??? Write-Ahead Log (WAL) files — all recent changes before they hit tables
 10.  ce inseamna asta: - It queries the system catalogs (like `pg_class`, `pg_attribute`) to learn the schema (tables, views, etc.).
 11. how the pgdump ACTUALLY WORK? in details?
 12. i dint get this line and what its used for an fits ontext host    replication    replicator    192.168.1.10/32    scram-sha-256
+13. `psql` protocol
 
