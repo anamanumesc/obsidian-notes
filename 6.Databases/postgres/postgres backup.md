@@ -8,9 +8,11 @@
 ## pg_dump
 `pg_dump` connects to the database (just like a client). - not the whole cluster
 it takes the info from the metadata from that cluster
+it takes a snapshot. what is inserted after the snapshot will not be shown
 and it writes a .sql document and if u run it it reates a new db
 if u add Fc option it gets compressed
 if u add Fp u can read it
+
 
 ## pg_restore
 To restore: **run `pg_restore` → database recreated**.

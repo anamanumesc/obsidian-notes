@@ -29,3 +29,7 @@ That means every transaction sees a _consistent snapshot_ of data — even while
 20. what does "dump" mean? - Each worker dumps different tables simultaneously — but all using the _same point in time_.
 21. u never explained what a dump file is or other important terms like that
 22. whata are (cron jobs
+
+
+23. - Each version is stamped with the transaction ID that created or deleted it. are transactions also kept somewere? give me an intro of postgres, how it works  like what does it keep, which files and what do each do. what are the things i shpould know ab postgres and how it works? are all versiosn kept? 
+24. what is a parallel dump?? why do we have multiple sessions? ig i dont know how pgdump works
