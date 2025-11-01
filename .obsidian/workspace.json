@@ -14,12 +14,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "6.Databases/postgres/postgres backup.md",
+                "file": "6.Databases/introduction.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "postgres backup"
+              "title": "introduction"
             }
           }
         ]
@@ -100,8 +100,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 353.5013427734375,
-    "collapsed": true
+    "width": 353.5013427734375
   },
   "right": {
     "id": "665f98919aa3d73c",
@@ -196,6 +195,7 @@
   },
   "active": "65921f43f04f8118",
   "lastOpenFiles": [
+    "6.Databases/introduction.md",
     "6.Databases/postgres/postgres backup.md",
     "6.Databases/questions.md",
     "6.Databases/postgres/pg_hba.conf.md",

@@ -13,6 +13,7 @@ if u add Fc option it gets compressed
 if u add Fp u can read it
 
 ## pg_restore
+To restore: **run `pg_restore` → database recreated**.
 
 
 ---

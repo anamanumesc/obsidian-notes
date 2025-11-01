@@ -22,3 +22,10 @@
 
 
 16. whoo??? - That snapshot is **exported** so that all 4 worker sessions reuse it. what is that? i think i basically need a big lesson ab this bcs i feel i have a ot of gaps 
+17. explain this: PostgreSQL uses **MVCC (Multi-Version Concurrency Control)**.  
+That means every transaction sees a _consistent snapshot_ of data — even while others are writing.
+18. When `pg_dump` starts, it: Begins a transaction. u never told me what a transacion is\
+19. - That snapshot is **exported** so that all 4 worker sessions reuse it. u never explained what worker session is
+20. what does "dump" mean? - Each worker dumps different tables simultaneously — but all using the _same point in time_.
+21. u never explained what a dump file is or other important terms like that
+22. whata are (cron jobs
