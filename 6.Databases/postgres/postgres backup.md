@@ -31,10 +31,13 @@ Defines how many **replication connections** can exist simultaneously.
 
 
 ## pg_basebackup
-- has a different protocol - a replication protocol
+- has a different protocol - client
 - needs wal level = replica
-`pg_basebackup` (the physical backup tool) connects as a **replication client**.
+- server checks for this line:
+- `host replication replicator 192.168.1.10/32 scram-sha-256`
 - `pg_basebackup` runs as a privileged command that copies those files while the server is online.
+- tar mode - archives, plain mode = directory tree
+- 
 how do i use it?? when?? give me life scenarios. where do u take the data from? in pg dump and in pg_basebackup
 
 

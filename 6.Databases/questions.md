@@ -18,4 +18,7 @@
 
 
 15. - This snapshot “freezes” what `pg_dump` sees so your dump isn’t affected by concurrent writes.wdym? so when u make a logical  backup, you stop and freeze the database. then u take the metadata and the . what is worker session/?? - If you use `-j` (parallel dump), it “exports” that snapshot and all worker sessions reuse it so every table sees **the same point in time**. how does it take the data from the databases? alsoo if u make this logical backup u basiclaly need to run a command, the backups gets done. and then u store it and if u need it, you run it? and how often do u make it? how is it used in real life? what ab phisical? the output is just a .sql file right??
-16. 
+
+
+
+16. whoo??? - That snapshot is **exported** so that all 4 worker sessions reuse it. what is that? i think i basically need a big lesson ab this bcs i feel i have a ot of gaps 
